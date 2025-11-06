@@ -1,0 +1,1212 @@
+[
+  {
+    "Name": "Afghanistan",
+    "Code": "AFG",
+    "FlagFileName": "afghanistan.png"
+  },
+  {
+    "Name": "Aland Islands",
+    "Code": "ALA",
+    "FlagFileName": "aland-islands.png"
+  },
+  {
+    "Name": "Albania",
+    "Code": "ALB",
+    "FlagFileName": "albania.png"
+  },
+  {
+    "Name": "Algeria",
+    "Code": "ALG",
+    "FlagFileName": "algeria.png"
+  },
+  {
+    "Name": "American Samoa",
+    "Code": "ASA",
+    "FlagFileName": "american-samoa.png"
+  },
+  {
+    "Name": "Andorra",
+    "Code": "AND",
+    "FlagFileName": "andorra.png"
+  },
+  {
+    "Name": "Angola",
+    "Code": "ANG",
+    "FlagFileName": "angola.png"
+  },
+  {
+    "Name": "Anguilla",
+    "Code": "AIA",
+    "FlagFileName": "anguilla.png"
+  },
+  {
+    "Name": "Antigua And Barbuda",
+    "Code": "ATG",
+    "FlagFileName": "antigua-and-barbuda.png"
+  },
+  {
+    "Name": "Argentina",
+    "Code": "ARG",
+    "FlagFileName": "argentina.png"
+  },
+  {
+    "Name": "Armenia",
+    "Code": "ARM",
+    "FlagFileName": "armenia.png"
+  },
+  {
+    "Name": "Aruba",
+    "Code": "ARU",
+    "FlagFileName": "aruba.png"
+  },
+  {
+    "Name": "Australia",
+    "Code": "AUS",
+    "FlagFileName": "australia.png"
+  },
+  {
+    "Name": "Austria",
+    "Code": "AUT",
+    "FlagFileName": "austria.png"
+  },
+  {
+    "Name": "Azerbaijan",
+    "Code": "AZE",
+    "FlagFileName": "azerbaijan.png"
+  },
+  {
+    "Name": "Azores Islands",
+    "Code": "AZO",
+    "FlagFileName": "azores-islands.png"
+  },
+  {
+    "Name": "Bahamas",
+    "Code": "BAH",
+    "FlagFileName": "bahamas.png"
+  },
+  {
+    "Name": "Bahrain",
+    "Code": "BHR",
+    "FlagFileName": "bahrain.png"
+  },
+  {
+    "Name": "Balearic Islands",
+    "Code": "BAL",
+    "FlagFileName": "balearic-islands.png"
+  },
+  {
+    "Name": "Bangladesh",
+    "Code": "BAN",
+    "FlagFileName": "bangladesh.png"
+  },
+  {
+    "Name": "Barbados",
+    "Code": "BRB",
+    "FlagFileName": "barbados.png"
+  },
+  {
+    "Name": "Basque Country",
+    "Code": "BAS",
+    "FlagFileName": "basque-country.png"
+  },
+  {
+    "Name": "Belarus",
+    "Code": "BLR",
+    "FlagFileName": "belarus.png"
+  },
+  {
+    "Name": "Belgium",
+    "Code": "BEL",
+    "FlagFileName": "belgium.png"
+  },
+  {
+    "Name": "Belize",
+    "Code": "BLZ",
+    "FlagFileName": "belize.png"
+  },
+  {
+    "Name": "Benin",
+    "Code": "BEN",
+    "FlagFileName": "benin.png"
+  },
+  {
+    "Name": "Bermuda",
+    "Code": "BER",
+    "FlagFileName": "bermuda.png"
+  },
+  {
+    "Name": "Bhutan",
+    "Code": "BHU",
+    "FlagFileName": "bhutan.png"
+  },
+  {
+    "Name": "Bolivia",
+    "Code": "BOL",
+    "FlagFileName": "bolivia.png"
+  },
+  {
+    "Name": "Bonaire",
+    "Code": "BES",
+    "FlagFileName": "bonaire.png"
+  },
+  {
+    "Name": "Bosnia And Herzegovina",
+    "Code": "BIH",
+    "FlagFileName": "bosnia-and-herzegovina.png"
+  },
+  {
+    "Name": "Botswana",
+    "Code": "BOT",
+    "FlagFileName": "botswana.png"
+  },
+  {
+    "Name": "Brazil",
+    "Code": "BRA",
+    "FlagFileName": "brazil.png"
+  },
+  {
+    "Name": "British Indian Ocean Territory",
+    "Code": "IOT",
+    "FlagFileName": "british-indian-ocean-territory.png"
+  },
+  {
+    "Name": "Brunei",
+    "Code": "BRU",
+    "FlagFileName": "brunei.png"
+  },
+  {
+    "Name": "Bulgaria",
+    "Code": "BUL",
+    "FlagFileName": "bulgaria.png"
+  },
+  {
+    "Name": "Burkina Faso",
+    "Code": "BFA",
+    "FlagFileName": "burkina-faso.png"
+  },
+  {
+    "Name": "Burundi",
+    "Code": "BDI",
+    "FlagFileName": "burundi.png"
+  },
+  {
+    "Name": "Cambodia",
+    "Code": "CAM",
+    "FlagFileName": "cambodia.png"
+  },
+  {
+    "Name": "Cameroon",
+    "Code": "CMR",
+    "FlagFileName": "cameroon.png"
+  },
+  {
+    "Name": "Canada",
+    "Code": "CAN",
+    "FlagFileName": "canada.png"
+  },
+  {
+    "Name": "Cape Verde",
+    "Code": "CPV",
+    "FlagFileName": "cape-verde.png"
+  },
+  {
+    "Name": "Cayman Islands",
+    "Code": "CAY",
+    "FlagFileName": "cayman-islands.png"
+  },
+  {
+    "Name": "Central African Republic",
+    "Code": "CTA",
+    "FlagFileName": "central-african-republic.png"
+  },
+  {
+    "Name": "Chad",
+    "Code": "CHA",
+    "FlagFileName": "chad.png"
+  },
+  {
+    "Name": "Chile",
+    "Code": "CHI",
+    "FlagFileName": "chile.png"
+  },
+  {
+    "Name": "China",
+    "Code": "CHN",
+    "FlagFileName": "china.png"
+  },
+  {
+    "Name": "Christmas Island",
+    "Code": "CXR",
+    "FlagFileName": "christmas-island.png"
+  },
+  {
+    "Name": "Cocos Island",
+    "Code": "CCK",
+    "FlagFileName": "cocos-island.png"
+  },
+  {
+    "Name": "Colombia",
+    "Code": "COL",
+    "FlagFileName": "colombia.png"
+  },
+  {
+    "Name": "Comoros",
+    "Code": "COM",
+    "FlagFileName": "comoros.png"
+  },
+  {
+    "Name": "Cook Islands",
+    "Code": "COK",
+    "FlagFileName": "cook-islands.png"
+  },
+  {
+    "Name": "Costa Rica",
+    "Code": "CRC",
+    "FlagFileName": "costa-rica.png"
+  },
+  {
+    "Name": "Croatia",
+    "Code": "CRO",
+    "FlagFileName": "croatia.png"
+  },
+  {
+    "Name": "Cuba",
+    "Code": "CUB",
+    "FlagFileName": "cuba.png"
+  },
+  {
+    "Name": "Curacao",
+    "Code": "CUW",
+    "FlagFileName": "curacao.png"
+  },
+  {
+    "Name": "Cyprus",
+    "Code": "CYP",
+    "FlagFileName": "cyprus.png"
+  },
+  {
+    "Name": "Czech Republic",
+    "Code": "CZE",
+    "FlagFileName": "czech-republic.png"
+  },
+  {
+    "Name": "Democratic Republic Of Congo",
+    "Code": "COG",
+    "FlagFileName": "democratic-republic-of-congo.png"
+  },
+  {
+    "Name": "Denmark",
+    "Code": "DEN",
+    "FlagFileName": "denmark.png"
+  },
+  {
+    "Name": "Djibouti",
+    "Code": "DJI",
+    "FlagFileName": "djibouti.png"
+  },
+  {
+    "Name": "Dominica",
+    "Code": "DMA",
+    "FlagFileName": "dominica.png"
+  },
+  {
+    "Name": "Dominican Republic",
+    "Code": "DOM",
+    "FlagFileName": "dominican-republic.png"
+  },
+  {
+    "Name": "East Timor",
+    "Code": "TLS",
+    "FlagFileName": "east-timor.png"
+  },
+  {
+    "Name": "Ecuador",
+    "Code": "ECU",
+    "FlagFileName": "ecuador.png"
+  },
+  {
+    "Name": "Egypt",
+    "Code": "EGY",
+    "FlagFileName": "egypt.png"
+  },
+  {
+    "Name": "England",
+    "Code": "ENG",
+    "FlagFileName": "england.png"
+  },
+  {
+    "Name": "Equatorial Guinea",
+    "Code": "EQG",
+    "FlagFileName": "equatorial-guinea.png"
+  },
+  {
+    "Name": "Eritrea",
+    "Code": "ERI",
+    "FlagFileName": "eritrea.png"
+  },
+  {
+    "Name": "Estonia",
+    "Code": "EST",
+    "FlagFileName": "estonia.png"
+  },
+  {
+    "Name": "Ethiopia",
+    "Code": "ETH",
+    "FlagFileName": "ethiopia.png"
+  },
+  {
+    "Name": "European Union",
+    "Code": "EUR",
+    "FlagFileName": "european-union.png"
+  },
+  {
+    "Name": "Falkland Islands",
+    "Code": "FLK",
+    "FlagFileName": "falkland-islands.png"
+  },
+  {
+    "Name": "Faroe Islands",
+    "Code": "FRO",
+    "FlagFileName": "faroe-islands.png"
+  },
+  {
+    "Name": "Fiji",
+    "Code": "FIJ",
+    "FlagFileName": "fiji.png"
+  },
+  {
+    "Name": "Finland",
+    "Code": "FIN",
+    "FlagFileName": "finland.png"
+  },
+  {
+    "Name": "France",
+    "Code": "FRA",
+    "FlagFileName": "france.png"
+  },
+  {
+    "Name": "French Polynesia",
+    "Code": "PYF",
+    "FlagFileName": "french-polynesia.png"
+  },
+  {
+    "Name": "Gabon",
+    "Code": "GAB",
+    "FlagFileName": "gabon.png"
+  },
+  {
+    "Name": "Galapagos Islands",
+    "Code": "GLI",
+    "FlagFileName": "galapagos-islands.png"
+  },
+  {
+    "Name": "Gambia",
+    "Code": "GAM",
+    "FlagFileName": "gambia.png"
+  },
+  {
+    "Name": "Georgia",
+    "Code": "GEO",
+    "FlagFileName": "georgia.png"
+  },
+  {
+    "Name": "Germany",
+    "Code": "GER",
+    "FlagFileName": "germany.png"
+  },
+  {
+    "Name": "Ghana",
+    "Code": "GHA",
+    "FlagFileName": "ghana.png"
+  },
+  {
+    "Name": "Gibraltar",
+    "Code": "GIB",
+    "FlagFileName": "gibraltar.png"
+  },
+  {
+    "Name": "Greece",
+    "Code": "GRE",
+    "FlagFileName": "greece.png"
+  },
+  {
+    "Name": "Greenland",
+    "Code": "GRL",
+    "FlagFileName": "greenland.png"
+  },
+  {
+    "Name": "Grenada",
+    "Code": "GRN",
+    "FlagFileName": "grenada.png"
+  },
+  {
+    "Name": "Guam",
+    "Code": "GUM",
+    "FlagFileName": "guam.png"
+  },
+  {
+    "Name": "Guatemala",
+    "Code": "GUA",
+    "FlagFileName": "guatemala.png"
+  },
+  {
+    "Name": "Guyana",
+    "Code": "GUY",
+    "FlagFileName": "guyana.png"
+  },
+  {
+    "Name": "Guernsey",
+    "Code": "GGY",
+    "FlagFileName": "guernsey.png"
+  },
+  {
+    "Name": "Guinea",
+    "Code": "GUI",
+    "FlagFileName": "guinea.png"
+  },
+  {
+    "Name": "Guinea Bissau",
+    "Code": "GNB",
+    "FlagFileName": "guinea-bissau.png"
+  },
+  {
+    "Name": "Haiti",
+    "Code": "HAI",
+    "FlagFileName": "haiti.png"
+  },
+  {
+    "Name": "Hawaii",
+    "Code": "HAW",
+    "FlagFileName": "hawaii.png"
+  },
+  {
+    "Name": "Honduras",
+    "Code": "HON",
+    "FlagFileName": "honduras.png"
+  },
+  {
+    "Name": "Hong Kong",
+    "Code": "HKG",
+    "FlagFileName": "hong-kong.png"
+  },
+  {
+    "Name": "Hungary",
+    "Code": "HUN",
+    "FlagFileName": "hungary.png"
+  },
+  {
+    "Name": "Iceland",
+    "Code": "ISL",
+    "FlagFileName": "iceland.png"
+  },
+  {
+    "Name": "India",
+    "Code": "IND",
+    "FlagFileName": "india.png"
+  },
+  {
+    "Name": "Indonesia",
+    "Code": "IDN",
+    "FlagFileName": "indonesia.png"
+  },
+  {
+    "Name": "Iran",
+    "Code": "IRN",
+    "FlagFileName": "iran.png"
+  },
+  {
+    "Name": "Iraq",
+    "Code": "IRQ",
+    "FlagFileName": "iraq.png"
+  },
+  {
+    "Name": "Ireland",
+    "Code": "IRL",
+    "FlagFileName": "ireland.png"
+  },
+  {
+    "Name": "Isle Of Man",
+    "Code": "IMN",
+    "FlagFileName": "isle-of-man.png"
+  },
+  {
+    "Name": "Israel",
+    "Code": "ISR",
+    "FlagFileName": "israel.png"
+  },
+  {
+    "Name": "Italy",
+    "Code": "ITA",
+    "FlagFileName": "italy.png"
+  },
+  {
+    "Name": "Ivory Coast",
+    "Code": "CIV",
+    "FlagFileName": "ivory-coast.png"
+  },
+  {
+    "Name": "Jamaica",
+    "Code": "JAM",
+    "FlagFileName": "jamaica.png"
+  },
+  {
+    "Name": "Japan",
+    "Code": "JPN",
+    "FlagFileName": "japan.png"
+  },
+  {
+    "Name": "Jersey",
+    "Code": "JEY",
+    "FlagFileName": "jersey.png"
+  },
+  {
+    "Name": "Jordan",
+    "Code": "JOR",
+    "FlagFileName": "jordan.png"
+  },
+  {
+    "Name": "Kazakhstan",
+    "Code": "KAZ",
+    "FlagFileName": "kazakhstan.png"
+  },
+  {
+    "Name": "Kenya",
+    "Code": "KEN",
+    "FlagFileName": "kenya.png"
+  },
+  {
+    "Name": "Kiribati",
+    "Code": "KIR",
+    "FlagFileName": "kiribati.png"
+  },
+  {
+    "Name": "Kosovo",
+    "Code": "KVX",
+    "FlagFileName": "kosovo.png"
+  },
+  {
+    "Name": "Kuwait",
+    "Code": "KUW",
+    "FlagFileName": "kuwait.png"
+  },
+  {
+    "Name": "Kyrgyzstan",
+    "Code": "KGZ",
+    "FlagFileName": "kyrgyzstan.png"
+  },
+  {
+    "Name": "Laos",
+    "Code": "LAO",
+    "FlagFileName": "laos.png"
+  },
+  {
+    "Name": "Latvia",
+    "Code": "LVA",
+    "FlagFileName": "latvia.png"
+  },
+  {
+    "Name": "Lebanon",
+    "Code": "LBN",
+    "FlagFileName": "lebanon.png"
+  },
+  {
+    "Name": "Lesotho",
+    "Code": "LES",
+    "FlagFileName": "lesotho.png"
+  },
+  {
+    "Name": "Liberia",
+    "Code": "LBR",
+    "FlagFileName": "liberia.png"
+  },
+  {
+    "Name": "Libya",
+    "Code": "LBY",
+    "FlagFileName": "libya.png"
+  },
+  {
+    "Name": "Liechtenstein",
+    "Code": "LIE",
+    "FlagFileName": "liechtenstein.png"
+  },
+  {
+    "Name": "Lithuania",
+    "Code": "LTU",
+    "FlagFileName": "lithuania.png"
+  },
+  {
+    "Name": "Luxembourg",
+    "Code": "LUX",
+    "FlagFileName": "luxembourg.png"
+  },
+  {
+    "Name": "Macao",
+    "Code": "MAC",
+    "FlagFileName": "macao.png"
+  },
+  {
+    "Name": "Madagascar",
+    "Code": "MAD",
+    "FlagFileName": "madagascar.png"
+  },
+  {
+    "Name": "Madeira",
+    "Code": "MDR",
+    "FlagFileName": "madeira.png"
+  },
+  {
+    "Name": "Malawi",
+    "Code": "MWI",
+    "FlagFileName": "malawi.png"
+  },
+  {
+    "Name": "Malaysia",
+    "Code": "MAS",
+    "FlagFileName": "malaysia.png"
+  },
+  {
+    "Name": "Maldives",
+    "Code": "MDV",
+    "FlagFileName": "maldives.png"
+  },
+  {
+    "Name": "Mali",
+    "Code": "MLI",
+    "FlagFileName": "mali.png"
+  },
+  {
+    "Name": "Malta",
+    "Code": "MLT",
+    "FlagFileName": "malta.png"
+  },
+  {
+    "Name": "Marshall Island",
+    "Code": "MHL",
+    "FlagFileName": "marshall-island.png"
+  },
+  {
+    "Name": "Martinique",
+    "Code": "MTQ",
+    "FlagFileName": "martinique.png"
+  },
+  {
+    "Name": "Mauritania",
+    "Code": "MTN",
+    "FlagFileName": "mauritania.png"
+  },
+  {
+    "Name": "Mauritius",
+    "Code": "MRI",
+    "FlagFileName": "mauritius.png"
+  },
+  {
+    "Name": "Melilla",
+    "Code": "MEL",
+    "FlagFileName": "melilla.png"
+  },
+  {
+    "Name": "Mexico",
+    "Code": "MEX",
+    "FlagFileName": "mexico.png"
+  },
+  {
+    "Name": "Micronesia",
+    "Code": "FSM",
+    "FlagFileName": "micronesia.png"
+  },
+  {
+    "Name": "Moldova",
+    "Code": "MDA",
+    "FlagFileName": "moldova.png"
+  },
+  {
+    "Name": "Monaco",
+    "Code": "MON",
+    "FlagFileName": "monaco.png"
+  },
+  {
+    "Name": "Mongolia",
+    "Code": "MNG",
+    "FlagFileName": "mongolia.png"
+  },
+  {
+    "Name": "Montenegro",
+    "Code": "MNE",
+    "FlagFileName": "montenegro.png"
+  },
+  {
+    "Name": "Montserrat",
+    "Code": "MSR",
+    "FlagFileName": "montserrat.png"
+  },
+  {
+    "Name": "Morocco",
+    "Code": "MAR",
+    "FlagFileName": "morocco.png"
+  },
+  {
+    "Name": "Mozambique",
+    "Code": "MOZ",
+    "FlagFileName": "mozambique.png"
+  },
+  {
+    "Name": "Myanmar",
+    "Code": "MYA",
+    "FlagFileName": "myanmar.png"
+  },
+  {
+    "Name": "Namibia",
+    "Code": "NAM",
+    "FlagFileName": "namibia.png"
+  },
+  {
+    "Name": "Nauru",
+    "Code": "NRU",
+    "FlagFileName": "nauru.png"
+  },
+  {
+    "Name": "Nepal",
+    "Code": "NEP",
+    "FlagFileName": "nepal.png"
+  },
+  {
+    "Name": "Netherlands",
+    "Code": "NED",
+    "FlagFileName": "netherlands.png"
+  },
+  {
+    "Name": "New Zealand",
+    "Code": "NZL",
+    "FlagFileName": "new-zealand.png"
+  },
+  {
+    "Name": "Nicaragua",
+    "Code": "NCA",
+    "FlagFileName": "nicaragua.png"
+  },
+  {
+    "Name": "Niger",
+    "Code": "NIG",
+    "FlagFileName": "niger.png"
+  },
+  {
+    "Name": "Nigeria",
+    "Code": "NGA",
+    "FlagFileName": "nigeria.png"
+  },
+  {
+    "Name": "Niue",
+    "Code": "NIU",
+    "FlagFileName": "niue.png"
+  },
+  {
+    "Name": "Norfolk Island",
+    "Code": "NFK",
+    "FlagFileName": "norfolk-island.png"
+  },
+  {
+    "Name": "North Korea",
+    "Code": "PRK",
+    "FlagFileName": "north-korea.png"
+  },
+  {
+    "Name": "Northern Marianas Islands",
+    "Code": "MNR",
+    "FlagFileName": "northern-marianas-islands.png"
+  },
+  {
+    "Name": "Norway",
+    "Code": "NOR",
+    "FlagFileName": "norway.png"
+  },
+  {
+    "Name": "Northern Ireland",
+    "Code": "NIR",
+    "FlagFileName": "northern_ireland.png"
+  },
+  {
+    "Name": "Oman",
+    "Code": "OMA",
+    "FlagFileName": "oman.png"
+  },
+  {
+    "Name": "Ossetia",
+    "Code": "OSS",
+    "FlagFileName": "ossetia.png"
+  },
+  {
+    "Name": "Pakistan",
+    "Code": "PAK",
+    "FlagFileName": "pakistan.png"
+  },
+  {
+    "Name": "Palau",
+    "Code": "PLW",
+    "FlagFileName": "palau.png"
+  },
+  {
+    "Name": "Palestine",
+    "Code": "PLE",
+    "FlagFileName": "palestine.png"
+  },
+  {
+    "Name": "Panama",
+    "Code": "PAN",
+    "FlagFileName": "panama.png"
+  },
+  {
+    "Name": "Papua New Guinea",
+    "Code": "PNG",
+    "FlagFileName": "papua-new-guinea.png"
+  },
+  {
+    "Name": "Paraguay",
+    "Code": "PAR",
+    "FlagFileName": "paraguay.png"
+  },
+  {
+    "Name": "Peru",
+    "Code": "PER",
+    "FlagFileName": "peru.png"
+  },
+  {
+    "Name": "Philippines",
+    "Code": "PHL",
+    "FlagFileName": "philippines.png"
+  },
+  {
+    "Name": "Pitcairn Islands",
+    "Code": "PCN",
+    "FlagFileName": "pitcairn-islands.png"
+  },
+  {
+    "Name": "Poland",
+    "Code": "POL",
+    "FlagFileName": "poland.png"
+  },
+  {
+    "Name": "Portugal",
+    "Code": "POR",
+    "FlagFileName": "portugal.png"
+  },
+  {
+    "Name": "Puerto Rico",
+    "Code": "PUR",
+    "FlagFileName": "puerto-rico.png"
+  },
+  {
+    "Name": "Qatar",
+    "Code": "QAT",
+    "FlagFileName": "qatar.png"
+  },
+  {
+    "Name": "Republic Of Macedonia",
+    "Code": "MKD",
+    "FlagFileName": "republic-of-macedonia.png"
+  },
+  {
+    "Name": "Romania",
+    "Code": "ROU",
+    "FlagFileName": "romania.png"
+  },
+  {
+    "Name": "Russia",
+    "Code": "RUS",
+    "FlagFileName": "russia.png"
+  },
+  {
+    "Name": "Rwanda",
+    "Code": "RWA",
+    "FlagFileName": "rwanda.png"
+  },
+  {
+    "Name": "Salvador",
+    "Code": "SLV",
+    "FlagFileName": "salvador.png"
+  },
+  {
+    "Name": "Samoa",
+    "Code": "SAM",
+    "FlagFileName": "samoa.png"
+  },
+  {
+    "Name": "San Marino",
+    "Code": "SMR",
+    "FlagFileName": "san-marino.png"
+  },
+  {
+    "Name": "Sao Tome And Principe",
+    "Code": "STP",
+    "FlagFileName": "sao-tome-and-principe.png"
+  },
+  {
+    "Name": "Saudi Arabia",
+    "Code": "KSA",
+    "FlagFileName": "saudi-arabia.png"
+  },
+  {
+    "Name": "Scotland",
+    "Code": "SCO",
+    "FlagFileName": "scotland.png"
+  },
+  {
+    "Name": "Senegal",
+    "Code": "SEN",
+    "FlagFileName": "senegal.png"
+  },
+  {
+    "Name": "Serbia",
+    "Code": "SRB",
+    "FlagFileName": "serbia.png"
+  },
+  {
+    "Name": "Seychelles",
+    "Code": "SEY",
+    "FlagFileName": "seychelles.png"
+  },
+  {
+    "Name": "Sierra Leone",
+    "Code": "SLE",
+    "FlagFileName": "sierra-leone.png"
+  },
+  {
+    "Name": "Singapore",
+    "Code": "SIN",
+    "FlagFileName": "singapore.png"
+  },
+  {
+    "Name": "Sint Maarten",
+    "Code": "SXM",
+    "FlagFileName": "sint-maarten.png"
+  },
+  {
+    "Name": "Slovakia",
+    "Code": "SVK",
+    "FlagFileName": "slovakia.png"
+  },
+  {
+    "Name": "Slovenia",
+    "Code": "SVN",
+    "FlagFileName": "slovenia.png"
+  },
+  {
+    "Name": "Solomon Islands",
+    "Code": "SOL",
+    "FlagFileName": "solomon-islands.png"
+  },
+  {
+    "Name": "Somalia",
+    "Code": "SOM",
+    "FlagFileName": "somalia.png"
+  },
+  {
+    "Name": "South Africa",
+    "Code": "RSA",
+    "FlagFileName": "south-africa.png"
+  },
+  {
+    "Name": "South Korea",
+    "Code": "KOR",
+    "FlagFileName": "south-korea.png"
+  },
+  {
+    "Name": "South Sudan",
+    "Code": "SSD",
+    "FlagFileName": "south-sudan.png"
+  },
+  {
+    "Name": "Spain",
+    "Code": "ESP",
+    "FlagFileName": "spain.png"
+  },
+  {
+    "Name": "Sri Lanka",
+    "Code": "SRI",
+    "FlagFileName": "sri-lanka.png"
+  },
+  {
+    "Name": "St Vincent And The Grenadines",
+    "Code": "VAG",
+    "FlagFileName": "st-vincent-and-the-grenadines.png"
+  },
+  {
+    "Name": "Sudan",
+    "Code": "SDN",
+    "FlagFileName": "sudan.png"
+  },
+  {
+    "Name": "Suriname",
+    "Code": "SUR",
+    "FlagFileName": "suriname.png"
+  },
+  {
+    "Name": "Sweden",
+    "Code": "SWE",
+    "FlagFileName": "sweden.png"
+  },
+  {
+    "Name": "Switzerland",
+    "Code": "SUI",
+    "FlagFileName": "switzerland.png"
+  },
+  {
+    "Name": "Syria",
+    "Code": "SYR",
+    "FlagFileName": "syria.png"
+  },
+  {
+    "Name": "Taiwan",
+    "Code": "TWN",
+    "FlagFileName": "taiwan.png"
+  },
+  {
+    "Name": "Tajikistan",
+    "Code": "TJK",
+    "FlagFileName": "tajikistan.png"
+  },
+  {
+    "Name": "Tanzania",
+    "Code": "TAN",
+    "FlagFileName": "tanzania.png"
+  },
+  {
+    "Name": "Thailand",
+    "Code": "THA",
+    "FlagFileName": "thailand.png"
+  },
+  {
+    "Name": "Tibet",
+    "Code": "TIB",
+    "FlagFileName": "tibet.png"
+  },
+  {
+    "Name": "Togo",
+    "Code": "TOG",
+    "FlagFileName": "togo.png"
+  },
+  {
+    "Name": "Tokelau",
+    "Code": "TKL",
+    "FlagFileName": "tokelau.png"
+  },
+  {
+    "Name": "Tonga",
+    "Code": "TGA",
+    "FlagFileName": "tonga.png"
+  },
+  {
+    "Name": "Trinidad And Tobago",
+    "Code": "TRI",
+    "FlagFileName": "trinidad-and-tobago.png"
+  },
+  {
+    "Name": "Tunisia",
+    "Code": "TUN",
+    "FlagFileName": "tunisia.png"
+  },
+  {
+    "Name": "Turkey",
+    "Code": "TUR",
+    "FlagFileName": "turkey.png"
+  },
+  {
+    "Name": "Turkmenistan",
+    "Code": "TKM",
+    "FlagFileName": "turkmenistan.png"
+  },
+  {
+    "Name": "Turks And Caicos",
+    "Code": "TCA",
+    "FlagFileName": "turks-and-caicos.png"
+  },
+  {
+    "Name": "Uganda",
+    "Code": "UGA",
+    "FlagFileName": "uganda.png"
+  },
+  {
+    "Name": "Ukraine",
+    "Code": "UKR",
+    "FlagFileName": "ukraine.png"
+  },
+  {
+    "Name": "United Arab Emirates",
+    "Code": "UAE",
+    "FlagFileName": "united-arab-emirates.png"
+  },
+  {
+    "Name": "United Kingdom",
+    "Code": "UKM",
+    "FlagFileName": "united-kingdom.png"
+  },
+  {
+    "Name": "United Nations",
+    "Code": "UNI",
+    "FlagFileName": "united-nations.png"
+  },
+  {
+    "Name": "United States Of America",
+    "Code": "USA",
+    "FlagFileName": "united-states-of-america.png"
+  },
+  {
+    "Name": "Uruguay",
+    "Code": "URU",
+    "FlagFileName": "uruguay.png"
+  },
+  {
+    "Name": "Uzbekistan",
+    "Code": "UZB",
+    "FlagFileName": "uzbekistan.png"
+  },
+  {
+    "Name": "Vanuatu",
+    "Code": "VAN",
+    "FlagFileName": "vanuatu.png"
+  },
+  {
+    "Name": "Vatican City",
+    "Code": "VAT",
+    "FlagFileName": "vatican-city.png"
+  },
+  {
+    "Name": "Venezuela",
+    "Code": "VEN",
+    "FlagFileName": "venezuela.png"
+  },
+  {
+    "Name": "Vietnam",
+    "Code": "VIE",
+    "FlagFileName": "vietnam.png"
+  },
+  {
+    "Name": "Virgin Islands",
+    "Code": "VIR",
+    "FlagFileName": "virgin-islands.png"
+  },
+  { 
+    "Name": "Wales",
+    "Code": "WAL",
+    "FlagFileName": "wales.png"
+  },
+  {
+    "Name": "Yemen",
+    "Code": "YEM",
+    "FlagFileName": "yemen.png"
+  },
+  {
+    "Name": "Zambia",
+    "Code": "ZAM",
+    "FlagFileName": "zambia.png"
+  },
+  {
+    "Name": "Zimbabwe",
+    "Code": "ZIM",
+    "FlagFileName": "zimbabwe.png"
+  },
+  {
+    "Name": "Great Britain",
+    "Code": "GBR",
+    "FlagFileName": "great-britain.png"
+  }
+]

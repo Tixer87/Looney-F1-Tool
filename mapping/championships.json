@@ -1,0 +1,1040 @@
+[
+  {
+    "UniqueName": "f1.2025",
+    "Name": "F1 2025",
+    "BaseChampionship": "f1.2025",
+    "Games": [
+      "f1.25"
+    ],
+    "Cars": [
+      "sauber.c45",
+      "vcarb.02",
+      "alpine.a525",
+      "aston.martin.amr25",
+      "ferrari.sf25",
+      "haas.vf25",
+      "mclaren.mcl39",
+      "mercedes.f1w16",
+      "redbull.rb21",
+      "williams.fw47"
+    ],
+    "Teams": [
+      "sauber.2025",
+      "racing.bulls.2025",
+      "alpine.2025",
+      "aston.martin.2025",
+      "ferrari.2025",
+      "haas.2025",
+      "mclaren.2025",
+      "mercedes.2025",
+      "red.bull.2025",
+      "williams.2025"
+    ],
+    "Tracks": [
+      "sakhir.2005",
+      "jeddah.2021",
+      "albert.park.2021",
+      "suzuka.2003",
+      "shanghai.2004",
+      "miami.2022",
+      "imola.2008",
+      "monaco.2015",
+      "montreal.2002",
+      "barcelona.2021",
+      "spielberg.2016",
+      "silverstone.2011",
+      "hungaroring.2003",
+      "spa.2007",
+      "zandvoort.2020",
+      "monza.2000",
+      "baku.2016",
+      "singapore.2023",
+      "austin.2012",
+      "mexico.2015",
+      "interlagos.2000",
+      "las.vegas.2023",
+      "losail.2023",
+      "yasmarina.2021",
+      "paulricard.2005",
+      "algarve.2008",
+      "silverstone.short.2010",
+      "suzuka.short.2003",
+      "TBA"
+    ],
+    "RacesCount": 0,
+    "QualsCount": 0,
+    "PracticesCount": 0,
+    "RaceType1": "Regular",
+    "RaceType2": "Regular",
+    "RaceType3": "Regular",
+    "QualType1": "Regular",
+    "QualType2": "Regular",
+    "QualType3": "Regular",
+    "GridSize": 20,
+    "SeatsPerTeam": 2,
+    "SeatsReserve": 20,
+    "EventFormat": {
+      "Presets": [
+        {
+          "Name": "Short qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Full qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q1"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q2"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q3"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Sprint, 1 short qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Sprint",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Sprint, 2 shorts qualifications",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Sprint",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        }
+      ]
+    },
+    "FastestLapPointsPositionEdge": 0,
+    "IgnoreWorstEventsEachDriver": 0,
+    "LineupsBasedType": "Teams",
+    "IsMinorRacesEqualsMajor": false,
+    "MaxTimePercentQualClassificationCriteria": 0,
+    "MinTimePercentRaceClassificationCriteria": 0,
+    "MinLapsRaceClassificationCriteria": 0,
+    "MinLapsPercentRaceClassificationCriteria": 0,
+    "MinTimeMinutesRaceClassificationCriteria": 0,
+    "MinDistanceMetersRaceClassificationCriteria": 0,
+    "MinDistancePercentRaceClassificationCriteria": 0
+  },
+  {
+    "UniqueName": "f1.2020",
+    "Name": "F1 2020",
+    "BaseChampionship": "f1.2020",
+    "Games": [
+      "f1.2020"
+    ],
+    "Cars": [
+      "alfaromeo.c39",
+      "alphatauri.at01",
+      "ferrari.sf1000",
+      "haas.vf20",
+      "mclaren.mcl35",
+      "racingpoint.rp20",
+      "redbull.rb16",
+      "renault.rs20",
+      "williams.fw43",
+      "mercedes.w11",
+      "multiplayer.f12020"
+    ],
+    "Teams": [
+      "alfa.romeo.2020",
+      "alphatauri.2020",
+      "ferrari.2020",
+      "haas.2020",
+      "mclaren.2020",
+      "mercedes.2020",
+      "racing.point.2020",
+      "red.bull.2020",
+      "renault.2020",
+      "williams.2020"
+    ],
+    "Tracks": [
+      "albert.park.1996",
+      "spielberg.2016",
+      "shanghai.2004",
+      "silverstone.2011",
+      "austin.2012",
+      "austin.short.2012",
+      "sakhir.2005",
+      "sakhir.short.2020",
+      "baku.2016",
+      "barcelona.2007",
+      "hanoi.2020",
+      "hungaroring.2003",
+      "interlagos.2000",
+      "mexico.2015",
+      "monaco.2015",
+      "montreal.2002",
+      "monza.2000",
+      "paulricard.2005",
+      "silverstone.short.2010",
+      "singapore.2018",
+      "sochi.2014",
+      "spa.2007",
+      "suzuka.2003",
+      "suzuka.short.2003",
+      "yasmarina.2009",
+      "zandvoort.2020"
+    ],
+    "RacesCount": 0,
+    "QualsCount": 0,
+    "PracticesCount": 0,
+    "RaceType1": "Regular",
+    "RaceType2": "Regular",
+    "RaceType3": "Regular",
+    "QualType1": "Regular",
+    "QualType2": "Regular",
+    "QualType3": "Regular",
+    "GridSize": 20,
+    "SeatsPerTeam": 2,
+    "SeatsReserve": 20,
+    "EventFormat": {
+      "Presets": [
+        {
+          "Name": "Short qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Full qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q1"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q2"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q3"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        }
+      ]
+    },
+    "FastestLapPointsPositionEdge": -1,
+    "IgnoreWorstEventsEachDriver": 0,
+    "LineupsBasedType": "Teams",
+    "IsMinorRacesEqualsMajor": false,
+    "MaxTimePercentQualClassificationCriteria": 0,
+    "MinTimePercentRaceClassificationCriteria": 0,
+    "MinLapsRaceClassificationCriteria": 0,
+    "MinLapsPercentRaceClassificationCriteria": 0,
+    "MinTimeMinutesRaceClassificationCriteria": 0,
+    "MinDistanceMetersRaceClassificationCriteria": 0,
+    "MinDistancePercentRaceClassificationCriteria": 0
+  },
+  {
+    "UniqueName": "f1.2021",
+    "Name": "F1 2021",
+    "BaseChampionship": "f1.2021",
+    "Games": [
+      "f1.2021",
+      "f1.22"
+    ],
+    "Cars": [
+      "multiplayer.f12021",
+      "haas.vf21",
+      "alphatauri.at02",
+      "alpine.a521",
+      "aston.amr21",
+      "ferrari.sf21",
+      "alfaromeo.c41",
+      "mercedes.w12",
+      "redbull.rb16b",
+      "williams.fw43b",
+      "mclaren.mcl35m"
+    ],
+    "Teams": [
+      "williams.2021",
+      "red.bull.2021",
+      "mercedes.2021",
+      "mclaren.2021",
+      "haas.2021",
+      "ferrari.2021",
+      "aston.martin.2021",
+      "alphatauri.2021",
+      "alfa.romeo.2021",
+      "alpine.2021"
+    ],
+    "Tracks": [
+      "austin.2012",
+      "austin.short.2012",
+      "sakhir.2005",
+      "sakhir.short.2020",
+      "baku.2016",
+      "barcelona.2021",
+      "hungaroring.2003",
+      "imola.2008",
+      "interlagos.2000",
+      "jeddah.2021",
+      "albert.park.1996",
+      "mexico.2015",
+      "monaco.2015",
+      "montreal.2002",
+      "monza.2000",
+      "paulricard.2005",
+      "algarve.2008",
+      "shanghai.2004",
+      "silverstone.2011",
+      "silverstone.short.2010",
+      "singapore.2018",
+      "sochi.2014",
+      "spa.2007",
+      "spielberg.2016",
+      "suzuka.2003",
+      "suzuka.short.2003",
+      "yasmarina.2021",
+      "zandvoort.2020"
+    ],
+    "RacesCount": 0,
+    "QualsCount": 0,
+    "PracticesCount": 0,
+    "RaceType1": "Regular",
+    "RaceType2": "Regular",
+    "RaceType3": "Regular",
+    "QualType1": "Regular",
+    "QualType2": "Regular",
+    "QualType3": "Regular",
+    "GridSize": 20,
+    "SeatsPerTeam": 2,
+    "SeatsReserve": 20,
+    "EventFormat": {
+      "Presets": [
+        {
+          "Name": "Short qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Full qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q1"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q2"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q3"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        }
+      ]
+    },
+    "FastestLapPointsPositionEdge": -1,
+    "IgnoreWorstEventsEachDriver": 0,
+    "LineupsBasedType": "Teams",
+    "IsMinorRacesEqualsMajor": false,
+    "MaxTimePercentQualClassificationCriteria": 0,
+    "MinTimePercentRaceClassificationCriteria": 0,
+    "MinLapsRaceClassificationCriteria": 0,
+    "MinLapsPercentRaceClassificationCriteria": 0,
+    "MinTimeMinutesRaceClassificationCriteria": 0,
+    "MinDistanceMetersRaceClassificationCriteria": 0,
+    "MinDistancePercentRaceClassificationCriteria": 0
+  },
+  {
+    "UniqueName": "f1.2022",
+    "Name": "F1 2022",
+    "BaseChampionship": "f1.2022",
+    "Games": [
+      "f1.22"
+    ],
+    "Cars": [
+      "alfaromeo.c42",
+      "alphatauri.at03",
+      "alpine.a522",
+      "aston.martin.amr22",
+      "ferrari.f175",
+      "haas.vf22",
+      "mclaren.mcl36",
+      "mercedes.f1w13",
+      "redbull.rb18",
+      "williams.fw44",
+      "multiplayer.f12022"
+    ],
+    "Teams": [
+      "alfa.romeo.2022",
+      "alphatauri.2022",
+      "alpine.2022",
+      "aston.martin.2022",
+      "ferrari.2022",
+      "haas.2022",
+      "mclaren.2022",
+      "mercedes.2022",
+      "red.bull.2022",
+      "williams.2022"
+    ],
+    "Tracks": [
+      "sakhir.2005",
+      "jeddah.2021",
+      "albert.park.2021",
+      "imola.2008",
+      "barcelona.2021",
+      "monaco.2015",
+      "baku.2016",
+      "montreal.2002",
+      "silverstone.2011",
+      "spielberg.2016",
+      "paulricard.2005",
+      "hungaroring.2003",
+      "spa.2007",
+      "zandvoort.2020",
+      "monza.2000",
+      "singapore.2018",
+      "suzuka.2003",
+      "austin.2012",
+      "mexico.2015",
+      "interlagos.2000",
+      "yasmarina.2021",
+      "miami.2022",
+      "silverstone.short.2010",
+      "austin.short.2012",
+      "sakhir.short.2020",
+      "suzuka.short.2003",
+      "algarve.2008",
+      "shanghai.2004"
+    ],
+    "RacesCount": 0,
+    "QualsCount": 0,
+    "PracticesCount": 0,
+    "RaceType1": "Regular",
+    "RaceType2": "Regular",
+    "RaceType3": "Regular",
+    "QualType1": "Regular",
+    "QualType2": "Regular",
+    "QualType3": "Regular",
+    "GridSize": 20,
+    "SeatsPerTeam": 2,
+    "SeatsReserve": 20,
+    "EventFormat": {
+      "Presets": [
+        {
+          "Name": "Short qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Full qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q1"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q2"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q3"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        }
+      ]
+    },
+    "FastestLapPointsPositionEdge": 10,
+    "IgnoreWorstEventsEachDriver": 0,
+    "LineupsBasedType": "Teams",
+    "IsMinorRacesEqualsMajor": false,
+    "MaxTimePercentQualClassificationCriteria": 0,
+    "MinTimePercentRaceClassificationCriteria": 0,
+    "MinLapsRaceClassificationCriteria": 0,
+    "MinLapsPercentRaceClassificationCriteria": 0,
+    "MinTimeMinutesRaceClassificationCriteria": 0,
+    "MinDistanceMetersRaceClassificationCriteria": 0,
+    "MinDistancePercentRaceClassificationCriteria": 0
+  },
+  {
+    "UniqueName": "f1.2023",
+    "Name": "F1 2023",
+    "BaseChampionship": "f1.2023",
+    "Games": [
+      "f1.23"
+    ],
+    "Cars": [
+      "williams.fw45",
+      "redbull.rb19",
+      "mercedes.f1w14",
+      "mclaren.mcl60",
+      "haas.vf23",
+      "ferrari.sf23",
+      "aston.martin.amr23",
+      "alpine.a523",
+      "alphatauri.at04",
+      "alfaromeo.c43",
+      "multiplayer.f12023"
+    ],
+    "Teams": [
+      "williams.2023",
+      "red.bull.2023",
+      "mercedes.2023",
+      "mclaren.2023",
+      "haas.2023",
+      "ferrari.2023",
+      "aston.martin.2023",
+      "alpine.2023",
+      "alphatauri.2023",
+      "alfa.romeo.2023"
+    ],
+    "Tracks": [
+      "sakhir.2005",
+      "jeddah.2021",
+      "albert.park.2021",
+      "imola.2008",
+      "barcelona.2021",
+      "monaco.2015",
+      "baku.2016",
+      "montreal.2002",
+      "silverstone.2011",
+      "spielberg.2016",
+      "paulricard.2005",
+      "hungaroring.2003",
+      "spa.2007",
+      "zandvoort.2020",
+      "monza.2000",
+      "singapore.2023",
+      "suzuka.2003",
+      "austin.2012",
+      "mexico.2015",
+      "interlagos.2000",
+      "yasmarina.2021",
+      "miami.2022",
+      "silverstone.short.2010",
+      "austin.short.2012",
+      "sakhir.short.2020",
+      "suzuka.short.2003",
+      "algarve.2008",
+      "shanghai.2004",
+      "losail.2023",
+      "las.vegas.2023"
+    ],
+    "RacesCount": 0,
+    "QualsCount": 0,
+    "PracticesCount": 0,
+    "RaceType1": "Regular",
+    "RaceType2": "Regular",
+    "RaceType3": "Regular",
+    "QualType1": "Regular",
+    "QualType2": "Regular",
+    "QualType3": "Regular",
+    "GridSize": 20,
+    "SeatsPerTeam": 2,
+    "SeatsReserve": 20,
+    "EventFormat": {
+      "Presets": [
+        {
+          "Name": "Short qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Full qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q1"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q2"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q3"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Sprint, 1 short qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Sprint",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Sprint, 2 shorts qualifications",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Sprint",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        }
+      ]
+    },
+    "FastestLapPointsPositionEdge": 10,
+    "IgnoreWorstEventsEachDriver": 0,
+    "LineupsBasedType": "Teams",
+    "IsMinorRacesEqualsMajor": false,
+    "MaxTimePercentQualClassificationCriteria": 0,
+    "MinTimePercentRaceClassificationCriteria": 0,
+    "MinLapsRaceClassificationCriteria": 0,
+    "MinLapsPercentRaceClassificationCriteria": 0,
+    "MinTimeMinutesRaceClassificationCriteria": 0,
+    "MinDistanceMetersRaceClassificationCriteria": 0,
+    "MinDistancePercentRaceClassificationCriteria": 0
+  },
+  {
+    "UniqueName": "f1.2024",
+    "Name": "F1 2024",
+    "BaseChampionship": "f1.2024",
+    "Games": [
+      "f1.24"
+    ],
+    "Cars": [
+      "sauber.c44",
+      "vcarb.01",
+      "alpine.a524",
+      "aston.martin.amr24",
+      "ferrari.sf24",
+      "haas.vf24",
+      "mclaren.mcl38",
+      "mercedes.f1w15",
+      "redbull.rb20",
+      "williams.fw46",
+      "multiplayer.f124"
+    ],
+    "Teams": [
+      "sauber.2024",
+      "racing.bulls.2024",
+      "alpine.2024",
+      "aston.martin.2024",
+      "ferrari.2024",
+      "haas.2024",
+      "mclaren.2024",
+      "mercedes.2024",
+      "red.bull.2024",
+      "williams.2024"
+    ],
+    "Tracks": [
+      "sakhir.2005",
+      "jeddah.2021",
+      "albert.park.2021",
+      "suzuka.2003",
+      "shanghai.2004",
+      "miami.2022",
+      "imola.2008",
+      "monaco.2015",
+      "montreal.2002",
+      "barcelona.2021",
+      "spielberg.2016",
+      "silverstone.2011",
+      "hungaroring.2003",
+      "spa.2007",
+      "zandvoort.2020",
+      "monza.2000",
+      "baku.2016",
+      "singapore.2023",
+      "austin.2012",
+      "mexico.2015",
+      "interlagos.2000",
+      "las.vegas.2023",
+      "losail.2023",
+      "yasmarina.2021",
+      "paulricard.2005",
+      "algarve.2008",
+      "silverstone.short.2010",
+      "austin.short.2012",
+      "sakhir.short.2020",
+      "suzuka.short.2003"
+    ],
+    "RacesCount": 0,
+    "QualsCount": 0,
+    "PracticesCount": 0,
+    "RaceType1": "Regular",
+    "RaceType2": "Regular",
+    "RaceType3": "Regular",
+    "QualType1": "Regular",
+    "QualType2": "Regular",
+    "QualType3": "Regular",
+    "GridSize": 20,
+    "SeatsPerTeam": 2,
+    "SeatsReserve": 20,
+    "EventFormat": {
+      "Presets": [
+        {
+          "Name": "Short qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Full qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q1"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q2"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Q3"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Sprint, 1 short qualification",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Sprint",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "Sprint, 2 shorts qualifications",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Sprint",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Main",
+              "QualificationType": "Regular"
+            }
+          ]
+        }
+      ]
+    },
+    "FastestLapPointsPositionEdge": 10,
+    "IgnoreWorstEventsEachDriver": 0,
+    "LineupsBasedType": "Teams",
+    "IsMinorRacesEqualsMajor": false,
+    "MaxTimePercentQualClassificationCriteria": 0,
+    "MinTimePercentRaceClassificationCriteria": 0,
+    "MinLapsRaceClassificationCriteria": 0,
+    "MinLapsPercentRaceClassificationCriteria": 0,
+    "MinTimeMinutesRaceClassificationCriteria": 0,
+    "MinDistanceMetersRaceClassificationCriteria": 0,
+    "MinDistancePercentRaceClassificationCriteria": 0
+  },
+  {
+    "UniqueName": "f2.2020",
+    "Name": "F2 2020",
+    "BaseChampionship": "f2.2020",
+    "Games": [
+      "f1.2020",
+      "f1.2021"
+    ],
+    "Cars": [
+      "dallara.f22018"
+    ],
+    "Teams": [
+      "dams.f2.2020",
+      "trident.f2.2020",
+      "prema.f2.2020",
+      "hwa.f2.2020",
+      "mp.f2.2020",
+      "hitech.f2.2020",
+      "campos.f2.2020",
+      "carlin.f2.2020",
+      "art.f2.2020",
+      "uni.f2.2020",
+      "charouz.f2.2020"
+    ],
+    "Tracks": [
+      "austin.2012",
+      "austin.short.2012",
+      "sakhir.2005",
+      "sakhir.short.2020",
+      "baku.2016",
+      "barcelona.2007",
+      "hanoi.2020",
+      "hungaroring.2003",
+      "interlagos.2000",
+      "albert.park.1996",
+      "mexico.2015",
+      "monaco.2015",
+      "montreal.2002",
+      "monza.2000",
+      "paulricard.2005",
+      "shanghai.2004",
+      "silverstone.2011",
+      "silverstone.short.2010",
+      "singapore.2018",
+      "sochi.2014",
+      "spa.2007",
+      "spielberg.2016",
+      "suzuka.2003",
+      "suzuka.short.2003",
+      "yasmarina.2009",
+      "zandvoort.2020"
+    ],
+    "RacesCount": 0,
+    "QualsCount": 0,
+    "PracticesCount": 0,
+    "RaceType1": "Regular",
+    "RaceType2": "Regular",
+    "RaceType3": "Regular",
+    "QualType1": "Regular",
+    "QualType2": "Regular",
+    "QualType3": "Regular",
+    "GridSize": 22,
+    "SeatsPerTeam": 2,
+    "SeatsReserve": 22,
+    "EventFormat": {
+      "Presets": [
+        {
+          "Name": "1 race per event",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Feature",
+              "QualificationType": "Regular"
+            }
+          ]
+        },
+        {
+          "Name": "3 races per event",
+          "Sessions": [
+            {
+              "SessionType": "Qualification",
+              "RaceType": "Regular",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Sprint",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Sprint",
+              "QualificationType": "Regular"
+            },
+            {
+              "SessionType": "Race",
+              "RaceType": "Feature",
+              "QualificationType": "Regular"
+            }
+          ]
+        }
+      ]
+    },
+    "FastestLapPointsPositionEdge": 10,
+    "IgnoreWorstEventsEachDriver": 0,
+    "LineupsBasedType": "Teams",
+    "IsMinorRacesEqualsMajor": true,
+    "MaxTimePercentQualClassificationCriteria": 0,
+    "MinTimePercentRaceClassificationCriteria": 0,
+    "MinLapsRaceClassificationCriteria": 0,
+    "MinLapsPercentRaceClassificationCriteria": 0,
+    "MinTimeMinutesRaceClassificationCriteria": 0,
+    "MinDistanceMetersRaceClassificationCriteria": 0,
+    "MinDistancePercentRaceClassificationCriteria": 0
+  }
+]

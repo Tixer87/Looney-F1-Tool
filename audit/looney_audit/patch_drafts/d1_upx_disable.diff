@@ -1,0 +1,73 @@
+# Diff-Entwurf: D1 - UPX deaktivieren
+
+**Datei:** `LooneyF1Tool.spec`  
+**Zweck:** UPX-Kompression deaktivieren für bessere AV-Kompatibilität  
+**Status:** **ENTWURF - NICHT ANWENDEN**
+
+---
+
+## Patch: LooneyF1Tool.spec
+
+```diff
+--- a/LooneyF1Tool.spec
++++ b/LooneyF1Tool.spec
+@@ -21,7 +21,7 @@ exe = EXE(
+     bootloader_ignore_signals=False,
+     strip=False,
+-    upx=True,
++    upx=False,
+     console=False,
+     disable_windowed_traceback=False,
+     argv_emulation=False,
+@@ -35,7 +35,7 @@ coll = COLLECT(
+     a.binaries,
+     a.datas,
+     strip=False,
+-    upx=True,
++    upx=False,
+     upx_exclude=[],
+     name='LooneyF1Tool',
+ )
+```
+
+---
+
+## Begründung
+
+**Problem:**
+- UPX-komprimierte EXEs werden von vielen Antivirenprogrammen als suspekt markiert
+- False-Positive-Rate erhöht
+- Legitime Nutzung, aber schlechte AV-Erfahrung
+
+**Lösung:**
+- UPX deaktivieren
+- EXE wird größer (~40 MB statt 29 MB), aber weniger Detections
+
+**Trade-off:**
+- **Vorteil:** Bessere AV-Kompatibilität, weniger False-Positives
+- **Nachteil:** ~35% größere EXE-Datei
+
+**Alternativ-Strategie:**
+1. UPX deaktivieren
+2. Dependency-Cleanup durchführen (siehe D2)
+3. Resultat: ~15-20 MB EXE ohne UPX (immer noch kleiner als ursprünglich 29 MB mit UPX+Bloat)
+
+---
+
+## Build & Test
+
+```powershell
+# Rebuild mit neuer Spec
+pyinstaller .\LooneyF1Tool.spec --noconfirm --clean
+
+# Größe prüfen
+Get-Item .\dist\LooneyF1Tool\LooneyF1Tool.exe | Select-Object Length
+
+# VirusTotal-Submission (manuell)
+# Upload: dist\LooneyF1Tool\LooneyF1Tool.exe
+# Erwartung: < 5/70 Detections (vs. ~10-15/70 mit UPX)
+```
+
+---
+
+**Status:** Entwurf - Nicht angewendet (Read-Only Audit)

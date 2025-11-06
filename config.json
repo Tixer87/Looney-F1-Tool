@@ -1,0 +1,8 @@
+{
+    "year": 2024,
+    "round": 1,
+    "api_base_url": "http://api.jolpi.ca/ergast/f1",
+    "default_year": 2024,
+    "default_export_dir": "rlt-ready",
+    "live_data_provider": "mock_connector"
+}

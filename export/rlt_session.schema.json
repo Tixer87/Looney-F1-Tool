@@ -1,0 +1,358 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://racingleaguetools.com/schemas/session-result.json",
+  "title": "RLT Session Result Format",
+  "description": "Racing League Tool session result import format",
+  "type": "object",
+  "required": [
+    "SessionType",
+    "RaceType",
+    "SessionPosition",
+    "Date",
+    "TrackName",
+    "TrackUniqueName",
+    "IsLiveData",
+    "TotalLaps",
+    "Drivers"
+  ],
+  "properties": {
+    "SessionType": {
+      "type": "string",
+      "enum": [
+        "Race",
+        "Qualification",
+        "Practice"
+      ]
+    },
+    "RaceType": {
+      "type": "string",
+      "enum": [
+        "Regular",
+        "Main",
+        "Sprint",
+        "Feature",
+        "First",
+        "Second",
+        "Third",
+        "Safety",
+        "Special"
+      ]
+    },
+    "QualType": {
+      "type": "string",
+      "enum": [
+        "Regular",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "SessionStatus": {
+      "type": "string",
+      "enum": [
+        "FullPoints",
+        "HalfPoints",
+        "NoPoints"
+      ]
+    },
+    "SessionPosition": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "Date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "FastestLapDriver": {
+      "type": "object",
+      "required": [
+        "Name",
+        "Nationality"
+      ],
+      "properties": {
+        "Name": {
+          "type": "string"
+        },
+        "Nationality": {
+          "type": "string"
+        }
+      }
+    },
+    "FastestLapTimeInt": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "FastestLapNumLap": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "DriverDayDriver": {
+      "type": "object",
+      "required": [
+        "Name",
+        "Nationality"
+      ],
+      "properties": {
+        "Name": {
+          "type": "string"
+        },
+        "Nationality": {
+          "type": "string"
+        }
+      }
+    },
+    "TrackName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "TrackUniqueName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "IsLiveData": {
+      "type": "boolean"
+    },
+    "LiveRecordPercent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "IsLiveFullRecord": {
+      "type": "boolean"
+    },
+    "IsSingleplayerMode": {
+      "type": "boolean"
+    },
+    "LiveStartDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "LiveEndDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "WeatherType": {
+      "type": "string",
+      "enum": [
+        "Clear",
+        "LightCloud",
+        "Overcast",
+        "LightRain",
+        "HeavyRain",
+        "Storm"
+      ]
+    },
+    "AirTemperature": {
+      "type": "integer"
+    },
+    "TrackTemperature": {
+      "type": "integer"
+    },
+    "TotalLaps": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "SessionDuration": {
+      "type": "string",
+      "pattern": "^\\d{2}:\\d{2}:\\d{2}$"
+    },
+    "SessionDetailsRaw": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Drivers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "Driver",
+          "Position",
+          "Team",
+          "SeatType",
+          "Status",
+          "TimeInt",
+          "GapInt",
+          "LapsCount",
+          "GridPosition",
+          "PitsCount"
+        ],
+        "properties": {
+          "Driver": {
+            "type": "object",
+            "required": [
+              "Name",
+              "Nationality"
+            ],
+            "properties": {
+              "Name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "Nationality": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "RaceNumber": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "NationalityIngame": {
+            "type": "string"
+          },
+          "Position": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "Team": {
+            "type": "object",
+            "required": [
+              "Name",
+              "UniqueName"
+            ],
+            "properties": {
+              "Name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "UniqueName": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "Car": {
+            "type": "object",
+            "properties": {
+              "Name": {
+                "type": "string"
+              },
+              "UniqueName": {
+                "type": "string"
+              }
+            }
+          },
+          "SeatType": {
+            "type": "string",
+            "enum": [
+              "Primary",
+              "Reserve",
+              "NoSeat"
+            ]
+          },
+          "Status": {
+            "type": "string",
+            "enum": [
+              "Ok",
+              "Dns",
+              "Dnf",
+              "Dsq"
+            ]
+          },
+          "TimeInt": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "GapInt": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "StintsRaw": {
+            "type": "string",
+            "pattern": "^(\\d+:\\d+:(?:\\d+)?:(?:\\d+)?(?:,\\d+:\\d+:(?:\\d+)?:(?:\\d+)?)*)?$"
+          },
+          "FastestLapTimeInt": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "FastestLapTyres": {
+            "type": "string",
+            "enum": [
+              "Soft",
+              "Medium",
+              "Hard",
+              "Intermediate",
+              "Wet",
+              "SuperSoft",
+              "UltraSoft",
+              "HyperSoft",
+              "C1",
+              "C2",
+              "C3",
+              "C4",
+              "C5",
+              "C6",
+              "Option",
+              "Prime",
+              "Qualifying",
+              "Slick",
+              "Rain",
+              "Snow",
+              "Gravel",
+              "Mud",
+              "Sand",
+              "AllTerrain",
+              "SemiSlick",
+              "Street",
+              "StreetVintage",
+              "AllWeather"
+            ]
+          },
+          "FastestLapNumLap": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "FastestLapValidFlags": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "PenaltySecsIngame": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "PenaltyPosIngame": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "PenaltySecsStewards": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "PenaltyPosStewards": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "PenaltyPoints": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "DriverPointsRaw": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "TeamPointsRaw": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "LapsCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "GridPosition": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "PitsCount": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,446 @@
+[
+  {
+    "UniqueName": "austin.2012",
+    "CircuitName": "Austin",
+    "CircuitFullName": "Circuit of the Americas",
+    "LocationName": "Austin",
+    "CircuitOrigin": "COTA",
+    "Years": "2012",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "United States Of America",
+    "Length": 5513,
+    "NumberTurns": 20,
+    "Aliases": [
+      "Circuit of the Americas",
+      "COTA",
+      "Austin"
+    ]
+  },
+  {
+    "UniqueName": "sakhir.2005",
+    "CircuitName": "Bahrain",
+    "CircuitFullName": "Bahrain International Circuit",
+    "LocationName": "Sakhir",
+    "CircuitOrigin": "Bahrain",
+    "Years": "2005",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Bahrain",
+    "Length": 5412,
+    "NumberTurns": 15,
+    "Aliases": [
+      "Bahrain International Circuit",
+      "Sakhir",
+      "Bahrain",
+      "Bahrain Grand Prix"
+    ]
+  },
+  {
+    "UniqueName": "baku.2016",
+    "CircuitName": "Baku",
+    "CircuitFullName": "Baku City Circuit",
+    "LocationName": "Baku",
+    "CircuitOrigin": "Baku",
+    "Years": "2016",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Street",
+    "Nation": "Azerbaijan",
+    "Length": 6003,
+    "NumberTurns": 20,
+    "Aliases": [
+      "Baku City Circuit",
+      "Baku"
+    ]
+  },
+  {
+    "UniqueName": "barcelona.2021",
+    "CircuitName": "Barcelona",
+    "CircuitFullName": "Circuit de Barcelona-Catalunya",
+    "LocationName": "Montmeló",
+    "CircuitOrigin": "Barcelona",
+    "Years": "2021",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Spain",
+    "Length": 4657,
+    "NumberTurns": 14,
+    "Aliases": [
+      "Circuit de Barcelona-Catalunya",
+      "Barcelona",
+      "Spanish Grand Prix"
+    ]
+  },
+  {
+    "UniqueName": "hungaroring.2003",
+    "CircuitName": "Hungaroring",
+    "CircuitFullName": "Hungaroring",
+    "LocationName": "Mogyoród",
+    "CircuitOrigin": "Hungaroring",
+    "Years": "2003",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Hungary",
+    "Length": 4381,
+    "NumberTurns": 14,
+    "Aliases": [
+      "Hungaroring",
+      "Budapest"
+    ]
+  },
+  {
+    "UniqueName": "imola.2008",
+    "CircuitName": "Imola",
+    "CircuitFullName": "Autodromo Internazionale Enzo e Dino Ferrari",
+    "LocationName": "Imola",
+    "CircuitOrigin": "Imola",
+    "Years": "2008",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Italy",
+    "Length": 4909,
+    "NumberTurns": 19,
+    "Aliases": [
+      "Imola",
+      "Autodromo Enzo e Dino Ferrari",
+      "Autodromo Internazionale Enzo e Dino Ferrari"
+    ]
+  },
+  {
+    "UniqueName": "interlagos.2000",
+    "CircuitName": "Interlagos",
+    "CircuitFullName": "Autódromo José Carlos Pace",
+    "LocationName": "São Paulo",
+    "CircuitOrigin": "Interlagos",
+    "Years": "2000",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Brazil",
+    "Length": 4309,
+    "NumberTurns": 15,
+    "Aliases": [
+      "Interlagos",
+      "Autódromo José Carlos Pace",
+      "Sao Paulo",
+      "São Paulo"
+    ]
+  },
+  {
+    "UniqueName": "jeddah.2021",
+    "CircuitName": "Jeddah",
+    "CircuitFullName": "Jeddah Corniche Circuit",
+    "LocationName": "Jeddah",
+    "CircuitOrigin": "Jeddah",
+    "Years": "2021",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Street",
+    "Nation": "Saudi Arabia",
+    "Length": 6174,
+    "NumberTurns": 27,
+    "Aliases": [
+      "Jeddah Corniche Circuit",
+      "Jeddah"
+    ]
+  },
+  {
+    "UniqueName": "albert.park.2021",
+    "CircuitName": "Melbourne",
+    "CircuitFullName": "Albert Park Circuit",
+    "LocationName": "Melbourne",
+    "CircuitOrigin": "Melbourne",
+    "Years": "2021",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Street",
+    "Nation": "Australia",
+    "Length": 5280,
+    "NumberTurns": 14,
+    "Aliases": [
+      "Albert Park Circuit",
+      "Melbourne",
+      "Albert Park Grand Prix Circuit",
+      "Australian Grand Prix"
+    ]
+  },
+  {
+    "UniqueName": "mexico.2015",
+    "CircuitName": "Mexico",
+    "CircuitFullName": "Autódromo Hermanos Rodríguez",
+    "LocationName": "Mexico City",
+    "CircuitOrigin": "Mexico",
+    "Years": "2015",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Mexico",
+    "Length": 4304,
+    "NumberTurns": 17,
+    "Aliases": [
+      "Autódromo Hermanos Rodríguez",
+      "Mexico City Grand Prix",
+      "Mexico",
+      "Mexico City"
+    ]
+  },
+  {
+    "UniqueName": "monaco.2015",
+    "CircuitName": "Monaco",
+    "CircuitFullName": "Circuit de Monaco",
+    "LocationName": "Monaco",
+    "CircuitOrigin": "Monaco",
+    "Years": "2015",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Street",
+    "Nation": "Monaco",
+    "Length": 3337,
+    "NumberTurns": 19,
+    "Aliases": [
+      "Circuit de Monaco",
+      "Monaco"
+    ]
+  },
+  {
+    "UniqueName": "montreal.2002",
+    "CircuitName": "Montreal",
+    "CircuitFullName": "Circuit Gilles Villeneuve",
+    "LocationName": "Montreal",
+    "CircuitOrigin": "Montreal",
+    "Years": "2002",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Canada",
+    "Length": 4361,
+    "NumberTurns": 14,
+    "Aliases": [
+      "Circuit Gilles Villeneuve",
+      "Montreal",
+      "Montréal"
+    ]
+  },
+  {
+    "UniqueName": "monza.2000",
+    "CircuitName": "Monza",
+    "CircuitFullName": "Autodromo Nazionale di Monza",
+    "LocationName": "Monza",
+    "CircuitOrigin": "Monza",
+    "Years": "2000",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Italy",
+    "Length": 5793,
+    "NumberTurns": 11,
+    "Aliases": [
+      "Autodromo Nazionale di Monza",
+      "Monza"
+    ]
+  },
+  {
+    "UniqueName": "shanghai.2004",
+    "CircuitName": "Shanghai",
+    "CircuitFullName": "Shanghai International Circuit",
+    "LocationName": "Shanghai",
+    "CircuitOrigin": "Shanghai",
+    "Years": "2004",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "China",
+    "Length": 5451,
+    "NumberTurns": 16,
+    "Aliases": [
+      "Shanghai International Circuit",
+      "Shanghai"
+    ]
+  },
+  {
+    "UniqueName": "silverstone.2011",
+    "CircuitName": "Silverstone",
+    "CircuitFullName": "Silverstone Circuit",
+    "LocationName": "Silverstone",
+    "CircuitOrigin": "Silverstone",
+    "Years": "2011",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "United Kingdom",
+    "Length": 5891,
+    "NumberTurns": 18,
+    "Aliases": [
+      "Silverstone Circuit",
+      "Silverstone"
+    ]
+  },
+  {
+    "UniqueName": "singapore.2018",
+    "CircuitName": "Singapore",
+    "CircuitFullName": "Marina Bay Street Circuit",
+    "LocationName": "Downtown Core",
+    "CircuitOrigin": "Singapore",
+    "Years": "2018",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Street",
+    "Nation": "Singapore",
+    "Length": 5063,
+    "NumberTurns": 23,
+    "Aliases": [
+      "Marina Bay Street Circuit",
+      "Singapore",
+      "Marina Bay"
+    ]
+  },
+  {
+    "UniqueName": "singapore.2023",
+    "CircuitName": "Singapore",
+    "CircuitFullName": "Marina Bay Street Circuit",
+    "LocationName": "Downtown Core",
+    "CircuitOrigin": "Singapore",
+    "Years": "2023",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Street",
+    "Nation": "Singapore",
+    "Length": 4940,
+    "NumberTurns": 19,
+    "Aliases": [
+      "Marina Bay Street Circuit",
+      "Singapore",
+      "Marina Bay"
+    ]
+  },
+  {
+    "UniqueName": "spa.2007",
+    "CircuitName": "Spa-Francorchamps",
+    "CircuitFullName": "Circuit de Spa-Francorchamps",
+    "LocationName": "Stavelot",
+    "CircuitOrigin": "Spa-Francorchamps",
+    "Years": "2007",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Belgium",
+    "Length": 7004,
+    "NumberTurns": 20,
+    "Aliases": [
+      "Spa",
+      "Spa-Francorchamps",
+      "Circuit de Spa-Francorchamps"
+    ]
+  },
+  {
+    "UniqueName": "spielberg.2016",
+    "CircuitName": "Spielberg",
+    "CircuitFullName": "Red Bull Ring",
+    "LocationName": "Spielberg",
+    "CircuitOrigin": "Speilberg",
+    "Years": "2016",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Austria",
+    "Length": 4318,
+    "NumberTurns": 10,
+    "Aliases": [
+      "Red Bull Ring",
+      "Spielberg"
+    ]
+  },
+  {
+    "UniqueName": "suzuka.2003",
+    "CircuitName": "Suzuka",
+    "CircuitFullName": "Suzuka International Racing Course",
+    "LocationName": "Suzuka",
+    "CircuitOrigin": "Suzuka",
+    "Years": "2003",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Japan",
+    "Length": 5807,
+    "NumberTurns": 18,
+    "Aliases": [
+      "Suzuka Circuit",
+      "Suzuka International Circuit",
+      "Suzuka International Racing Course",
+      "Suzuka"
+    ]
+  },
+  {
+    "UniqueName": "yasmarina.2021",
+    "CircuitName": "Yas Marina",
+    "CircuitFullName": "Yas Marina Circuit",
+    "LocationName": "Yas Island",
+    "CircuitOrigin": "Yas Marina",
+    "Years": "2021",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "United Arab Emirates",
+    "Length": 5281,
+    "NumberTurns": 16,
+    "Aliases": [
+      "Yas Marina Circuit",
+      "Yas Marina",
+      "Yas Island"
+    ]
+  },
+  {
+    "UniqueName": "zandvoort.2020",
+    "CircuitName": "Zandvoort",
+    "CircuitFullName": "Circuit Zandvoort",
+    "LocationName": "Zandvoort",
+    "CircuitOrigin": "Zandvoort",
+    "Years": "2020",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Netherlands",
+    "Length": 4259,
+    "NumberTurns": 14,
+    "Aliases": [
+      "Circuit Zandvoort",
+      "Zandvoort"
+    ]
+  },
+  {
+    "UniqueName": "miami.2022",
+    "CircuitName": "Miami",
+    "CircuitFullName": "Miami International Autodrome",
+    "LocationName": "Miami Gardens",
+    "CircuitOrigin": "Miami",
+    "Years": "2022",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Street",
+    "Nation": "United States Of America",
+    "Length": 5412,
+    "NumberTurns": 19,
+    "Aliases": [
+      "Miami International Autodrome",
+      "Miami"
+    ]
+  },
+  {
+    "UniqueName": "losail.2023",
+    "CircuitName": "Losail",
+    "CircuitFullName": "Losail International Circuit",
+    "LocationName": "Lusail",
+    "CircuitOrigin": "Losail",
+    "Years": "2023",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Race",
+    "Nation": "Qatar",
+    "Length": 5419,
+    "NumberTurns": 16,
+    "Aliases": [
+      "Losail International Circuit",
+      "Losail",
+      "Lusail"
+    ]
+  },
+  {
+    "UniqueName": "las.vegas.2023",
+    "CircuitName": "Las Vegas",
+    "CircuitFullName": "Las Vegas Strip Circuit",
+    "LocationName": "Las Vegas",
+    "CircuitOrigin": "Las Vegas",
+    "Years": "2023",
+    "TrackLayout": "GrandPrix",
+    "TrackType": "Street",
+    "Nation": "United States Of America",
+    "Length": 6120,
+    "NumberTurns": 17,
+    "Aliases": [
+      "Las Vegas Strip Circuit",
+      "Las Vegas"
+    ]
+  }
+]

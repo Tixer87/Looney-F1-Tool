@@ -1,0 +1,26 @@
+# Looney F1 Tool - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+requests>=2.31.0
+rich>=13.0.0
+pandas>=2.2.0
+numpy>=2.0.0
+fastf1>=3.6.0
+flask-socketio>=5.3.6
+
+# GUI and packaging dependencies
+pyinstaller>=6.10.0
+
+# Testing dependencies
+pytest>=7.0.0
+jsonschema>=4.23.0
+
+# Optional dependencies for future features
+# jupyter>=1.0.0         # For data analysis notebooks (future)
+# matplotlib>=3.5.0      # For data visualization (future)
+
+# Development dependencies (optional)
+# black>=23.0.0          # Code formatting
+# flake8>=6.0.0          # Code linting
+# mypy>=1.0.0            # Type checking

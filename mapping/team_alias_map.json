@@ -1,0 +1,56 @@
+{
+  "constructor:red_bull": { "Name": "Red Bull", "UniquePrefix": "red.bull.", "Abbr": "RB" },
+  "red bull": { "Name": "Red Bull", "UniquePrefix": "red.bull.", "Abbr": "RB" },
+  "oracle red bull": { "Name": "Red Bull", "UniquePrefix": "red.bull.", "Abbr": "RB" },
+  "oracle red bull racing": { "Name": "Red Bull", "UniquePrefix": "red.bull.", "Abbr": "RB" },
+  "rbr": { "Name": "Red Bull", "UniquePrefix": "red.bull.", "Abbr": "RB" },
+  "red bull racing": { "Name": "Red Bull", "UniquePrefix": "red.bull.", "Abbr": "RB" },
+
+  "constructor:rb": { "Name": "Racing Bulls", "UniquePrefix": "racing.bulls.", "Abbr": "VRB" },
+  "racing bulls": { "Name": "Racing Bulls", "UniquePrefix": "racing.bulls.", "Abbr": "VRB" },
+  "visa cash app rb": { "Name": "Racing Bulls", "UniquePrefix": "racing.bulls.", "Abbr": "VRB" },
+  "visa cash app": { "Name": "Racing Bulls", "UniquePrefix": "racing.bulls.", "Abbr": "VRB" },
+  "vcarb": { "Name": "Racing Bulls", "UniquePrefix": "racing.bulls.", "Abbr": "VRB" },
+  
+  "constructor:alphatauri": { "Name": "AlphaTauri", "UniquePrefix": "alphatauri.", "Abbr": "AT" },
+  "alphatauri": { "Name": "AlphaTauri", "UniquePrefix": "alphatauri.", "Abbr": "AT" },
+  "alpha tauri": { "Name": "AlphaTauri", "UniquePrefix": "alphatauri.", "Abbr": "AT" },
+  "scuderia alphatauri": { "Name": "AlphaTauri", "UniquePrefix": "alphatauri.", "Abbr": "AT" },
+
+  "constructor:mercedes": { "Name": "Mercedes", "UniquePrefix": "mercedes.", "Abbr": "MER" },
+  "mercedes": { "Name": "Mercedes", "UniquePrefix": "mercedes.", "Abbr": "MER" },
+  "mercedes-amg": { "Name": "Mercedes", "UniquePrefix": "mercedes.", "Abbr": "MER" },
+  "merc": { "Name": "Mercedes", "UniquePrefix": "mercedes.", "Abbr": "MER" },
+
+  "constructor:ferrari": { "Name": "Ferrari", "UniquePrefix": "ferrari.", "Abbr": "FER" },
+  "ferrari": { "Name": "Ferrari", "UniquePrefix": "ferrari.", "Abbr": "FER" },
+  "scuderia ferrari": { "Name": "Ferrari", "UniquePrefix": "ferrari.", "Abbr": "FER" },
+
+  "constructor:mclaren": { "Name": "McLaren", "UniquePrefix": "mclaren.", "Abbr": "MCL" },
+  "mclaren": { "Name": "McLaren", "UniquePrefix": "mclaren.", "Abbr": "MCL" },
+  "mclaren f1 team": { "Name": "McLaren", "UniquePrefix": "mclaren.", "Abbr": "MCL" },
+
+  "constructor:alpine": { "Name": "Alpine", "UniquePrefix": "alpine.", "Abbr": "ALP" },
+  "alpine": { "Name": "Alpine", "UniquePrefix": "alpine.", "Abbr": "ALP" },
+  "alpine f1 team": { "Name": "Alpine", "UniquePrefix": "alpine.", "Abbr": "ALP" },
+
+  "constructor:aston_martin": { "Name": "Aston Martin", "UniquePrefix": "aston.martin.", "Abbr": "AMR" },
+  "aston martin": { "Name": "Aston Martin", "UniquePrefix": "aston.martin.", "Abbr": "AMR" },
+  "aston martin aramco": { "Name": "Aston Martin", "UniquePrefix": "aston.martin.", "Abbr": "AMR" },
+  "amr": { "Name": "Aston Martin", "UniquePrefix": "aston.martin.", "Abbr": "AMR" },
+  "am": { "Name": "Aston Martin", "UniquePrefix": "aston.martin.", "Abbr": "AMR" },
+
+  "constructor:williams": { "Name": "Williams", "UniquePrefix": "williams.", "Abbr": "WIL" },
+  "williams": { "Name": "Williams", "UniquePrefix": "williams.", "Abbr": "WIL" },
+  "williams racing": { "Name": "Williams", "UniquePrefix": "williams.", "Abbr": "WIL" },
+
+  "constructor:haas": { "Name": "Haas", "UniquePrefix": "haas.", "Abbr": "HAS" },
+  "haas": { "Name": "Haas", "UniquePrefix": "haas.", "Abbr": "HAS" },
+  "haas f1 team": { "Name": "Haas", "UniquePrefix": "haas.", "Abbr": "HAS" },
+
+  "constructor:sauber": { "Name": "Sauber", "UniquePrefix": "sauber.", "Abbr": "SBR" },
+  "sauber": { "Name": "Sauber", "UniquePrefix": "sauber.", "Abbr": "SBR" },
+  "audi": { "Name": "Sauber", "UniquePrefix": "sauber.", "Abbr": "SBR" },
+  "kick sauber": { "Name": "Sauber", "UniquePrefix": "sauber.", "Abbr": "SBR" },
+  "alfa romeo": { "Name": "Sauber", "UniquePrefix": "sauber.", "Abbr": "SBR" }
+}

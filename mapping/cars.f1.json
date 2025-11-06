@@ -1,0 +1,422 @@
+[
+  {
+    "UniqueName": "alfaromeo.c39",
+    "Name": "Alfa Romeo Racing C39",
+    "CarClass": "f1",
+    "Vendor": "alfa.romeo",
+    "Year": 2020
+  },
+  {
+    "UniqueName": "alphatauri.at01",
+    "Name": "AlphaTauri AT01",
+    "CarClass": "f1",
+    "Vendor": "alphatauri",
+    "Year": 2020
+  },
+  {
+    "UniqueName": "ferrari.sf1000",
+    "Name": "Ferrari SF1000",
+    "CarClass": "f1",
+    "Vendor": "ferrari",
+    "Year": 2020
+  },
+  {
+    "UniqueName": "haas.vf20",
+    "Name": "Haas VF-20",
+    "CarClass": "f1",
+    "Vendor": "haas",
+    "Year": 2020
+  },
+  {
+    "UniqueName": "mclaren.mcl35",
+    "Name": "McLaren MCL35",
+    "CarClass": "f1",
+    "Vendor": "mclaren",
+    "Year": 2020
+  },
+  {
+    "UniqueName": "racingpoint.rp20",
+    "Name": "Racing Point RP20",
+    "CarClass": "f1",
+    "Vendor": "racingpoint",
+    "Year": 2020
+  },
+  {
+    "UniqueName": "redbull.rb16",
+    "Name": "Red Bull Racing RB16",
+    "CarClass": "f1",
+    "Vendor": "redbull",
+    "Year": 2020
+  },
+  {
+    "UniqueName": "renault.rs20",
+    "Name": "Renault R.S.20",
+    "CarClass": "f1",
+    "Vendor": "renault",
+    "Year": 2020
+  },
+  {
+    "UniqueName": "williams.fw43",
+    "Name": "Williams FW43",
+    "CarClass": "f1",
+    "Vendor": "williams",
+    "Year": 2020
+  },
+  {
+    "UniqueName": "mercedes.w11",
+    "Name": "Mercedes-AMG F1 W11 EQ Performance",
+    "CarClass": "f1",
+    "Vendor": "mercedes",
+    "Year": 2020
+  },
+  {
+    "UniqueName": "alfaromeo.c41",
+    "Name": "Alfa Romeo Racing C41",
+    "CarClass": "f1",
+    "Vendor": "alfa.romeo",
+    "Year": 2021
+  },
+  {
+    "UniqueName": "alphatauri.at02",
+    "Name": "AlphaTauri AT02",
+    "CarClass": "f1",
+    "Vendor": "alphatauri",
+    "Year": 2021
+  },
+  {
+    "UniqueName": "alpine.a521",
+    "Name": "Alpine A521",
+    "CarClass": "f1",
+    "Vendor": "alpine",
+    "Year": 2021
+  },
+  {
+    "UniqueName": "aston.amr21",
+    "Name": "Aston Martin AMR21",
+    "CarClass": "f1",
+    "Vendor": "aston.martin",
+    "Year": 2021
+  },
+  {
+    "UniqueName": "ferrari.sf21",
+    "Name": "Ferrari SF21",
+    "CarClass": "f1",
+    "Vendor": "ferrari",
+    "Year": 2021
+  },
+  {
+    "UniqueName": "haas.vf21",
+    "Name": "Haas VF-21",
+    "CarClass": "f1",
+    "Vendor": "haas",
+    "Year": 2021
+  },
+  {
+    "UniqueName": "mclaren.mcl35m",
+    "Name": "McLaren MCL35M",
+    "CarClass": "f1",
+    "Vendor": "mclaren",
+    "Year": 2021
+  },
+  {
+    "UniqueName": "mercedes.w12",
+    "Name": "Mercedes W12",
+    "CarClass": "f1",
+    "Vendor": "mercedes",
+    "Year": 2021
+  },
+  {
+    "UniqueName": "redbull.rb16b",
+    "Name": "Red Bull Racing RB16B",
+    "CarClass": "f1",
+    "Vendor": "redbull",
+    "Year": 2021
+  },
+  {
+    "UniqueName": "williams.fw43b",
+    "Name": "Williams FW43B",
+    "CarClass": "f1",
+    "Vendor": "williams",
+    "Year": 2021
+  },
+  {
+    "UniqueName": "alfaromeo.c42",
+    "Name": "Alfa Romeo C42",
+    "CarClass": "f1",
+    "Vendor": "alfa.romeo",
+    "Year": 2022
+  },
+  {
+    "UniqueName": "alphatauri.at03",
+    "Name": "AlphaTauri AT03",
+    "CarClass": "f1",
+    "Vendor": "alphatauri",
+    "Year": 2022
+  },
+  {
+    "UniqueName": "alpine.a522",
+    "Name": "Alpine A522",
+    "CarClass": "f1",
+    "Vendor": "alpine",
+    "Year": 2022
+  },
+  {
+    "UniqueName": "aston.martin.amr22",
+    "Name": "Aston Martin AMR22",
+    "CarClass": "f1",
+    "Vendor": "aston.martin",
+    "Year": 2022
+  },
+  {
+    "UniqueName": "ferrari.f175",
+    "Name": "Ferrari F1-75",
+    "CarClass": "f1",
+    "Vendor": "ferrari",
+    "Year": 2022
+  },
+  {
+    "UniqueName": "haas.vf22",
+    "Name": "Haas VF-22",
+    "CarClass": "f1",
+    "Vendor": "haas",
+    "Year": 2022
+  },
+  {
+    "UniqueName": "mclaren.mcl36",
+    "Name": "McLaren MCL36",
+    "CarClass": "f1",
+    "Vendor": "mclaren",
+    "Year": 2022
+  },
+  {
+    "UniqueName": "mercedes.f1w13",
+    "Name": "Mercedes F1 W13",
+    "CarClass": "f1",
+    "Vendor": "mercedes",
+    "Year": 2022
+  },
+  {
+    "UniqueName": "redbull.rb18",
+    "Name": "Red Bull RB18",
+    "CarClass": "f1",
+    "Vendor": "redbull",
+    "Year": 2022
+  },
+  {
+    "UniqueName": "williams.fw44",
+    "Name": "Williams FW44",
+    "CarClass": "f1",
+    "Vendor": "williams",
+    "Year": 2022
+  },
+  {
+    "UniqueName": "alfaromeo.c43",
+    "Name": "Alfa Romeo C43",
+    "CarClass": "f1",
+    "Vendor": "alfa.romeo",
+    "Year": 2023
+  },
+  {
+    "UniqueName": "alphatauri.at04",
+    "Name": "AlphaTauri AT04",
+    "CarClass": "f1",
+    "Vendor": "alphatauri",
+    "Year": 2023
+  },
+  {
+    "UniqueName": "alpine.a523",
+    "Name": "Alpine A523",
+    "CarClass": "f1",
+    "Vendor": "alpine",
+    "Year": 2023
+  },
+  {
+    "UniqueName": "aston.martin.amr23",
+    "Name": "Aston Martin AMR23",
+    "CarClass": "f1",
+    "Vendor": "aston.martin",
+    "Year": 2023
+  },
+  {
+    "UniqueName": "ferrari.sf23",
+    "Name": "Ferrari SF-23",
+    "CarClass": "f1",
+    "Vendor": "ferrari",
+    "Year": 2023
+  },
+  {
+    "UniqueName": "haas.vf23",
+    "Name": "Haas VF-23",
+    "CarClass": "f1",
+    "Vendor": "haas",
+    "Year": 2023
+  },
+  {
+    "UniqueName": "mclaren.mcl60",
+    "Name": "McLaren MCL60",
+    "CarClass": "f1",
+    "Vendor": "mclaren",
+    "Year": 2023
+  },
+  {
+    "UniqueName": "mercedes.f1w14",
+    "Name": "Mercedes F1 W14",
+    "CarClass": "f1",
+    "Vendor": "mercedes",
+    "Year": 2023
+  },
+  {
+    "UniqueName": "redbull.rb19",
+    "Name": "Red Bull RB19",
+    "CarClass": "f1",
+    "Vendor": "redbull",
+    "Year": 2023
+  },
+  {
+    "UniqueName": "williams.fw45",
+    "Name": "Williams FW45",
+    "CarClass": "f1",
+    "Vendor": "williams",
+    "Year": 2023
+  },
+  {
+    "UniqueName": "sauber.c44",
+    "Name": "Sauber C44",
+    "CarClass": "f1",
+    "Vendor": "sauber",
+    "Year": 2024
+  },
+  {
+    "UniqueName": "vcarb.01",
+    "Name": "VCARB 01",
+    "CarClass": "f1",
+    "Vendor": "racing.bulls",
+    "Year": 2024
+  },
+  {
+    "UniqueName": "alpine.a524",
+    "Name": "Alpine A524",
+    "CarClass": "f1",
+    "Vendor": "alpine",
+    "Year": 2024
+  },
+  {
+    "UniqueName": "aston.martin.amr24",
+    "Name": "Aston Martin AMR24",
+    "CarClass": "f1",
+    "Vendor": "aston.martin",
+    "Year": 2024
+  },
+  {
+    "UniqueName": "ferrari.sf24",
+    "Name": "Ferrari SF-24",
+    "CarClass": "f1",
+    "Vendor": "ferrari",
+    "Year": 2024
+  },
+  {
+    "UniqueName": "haas.vf24",
+    "Name": "Haas VF-24",
+    "CarClass": "f1",
+    "Vendor": "haas",
+    "Year": 2024
+  },
+  {
+    "UniqueName": "mclaren.mcl38",
+    "Name": "McLaren MCL38",
+    "CarClass": "f1",
+    "Vendor": "mclaren",
+    "Year": 2024
+  },
+  {
+    "UniqueName": "mercedes.f1w15",
+    "Name": "Mercedes F1 W15",
+    "CarClass": "f1",
+    "Vendor": "mercedes",
+    "Year": 2024
+  },
+  {
+    "UniqueName": "redbull.rb20",
+    "Name": "Red Bull RB20",
+    "CarClass": "f1",
+    "Vendor": "redbull",
+    "Year": 2024
+  },
+  {
+    "UniqueName": "williams.fw46",
+    "Name": "Williams FW46",
+    "CarClass": "f1",
+    "Vendor": "williams",
+    "Year": 2024
+  },
+  {
+    "UniqueName": "alpine.a525",
+    "Name": "Alpine A525",
+    "CarClass": "f1",
+    "Vendor": "alpine",
+    "Year": 2025
+  },
+  {
+    "UniqueName": "aston.martin.amr25",
+    "Name": "Aston Martin AMR25",
+    "CarClass": "f1",
+    "Vendor": "aston.martin",
+    "Year": 2025
+  },
+  {
+    "UniqueName": "ferrari.sf25",
+    "Name": "Ferrari SF-25",
+    "CarClass": "f1",
+    "Vendor": "ferrari",
+    "Year": 2025
+  },
+  {
+    "UniqueName": "haas.vf25",
+    "Name": "Haas VF-25",
+    "CarClass": "f1",
+    "Vendor": "haas",
+    "Year": 2025
+  },
+  {
+    "UniqueName": "mclaren.mcl39",
+    "Name": "McLaren MCL39",
+    "CarClass": "f1",
+    "Vendor": "mclaren",
+    "Year": 2025
+  },
+  {
+    "UniqueName": "mercedes.f1w16",
+    "Name": "Mercedes-AMG F1 W16",
+    "CarClass": "f1",
+    "Vendor": "mercedes",
+    "Year": 2025
+  },
+  {
+    "UniqueName": "vcarb.02",
+    "Name": "VCARB 02",
+    "CarClass": "f1",
+    "Vendor": "racing.bulls",
+    "Year": 2025
+  },
+  {
+    "UniqueName": "redbull.rb21",
+    "Name": "Red Bull RB21",
+    "CarClass": "f1",
+    "Vendor": "redbull",
+    "Year": 2025
+  },
+  {
+    "UniqueName": "sauber.c45",
+    "Name": "Sauber C45",
+    "CarClass": "f1",
+    "Vendor": "sauber",
+    "Year": 2025
+  },
+  {
+    "UniqueName": "williams.fw47",
+    "Name": "Williams FW47",
+    "CarClass": "f1",
+    "Vendor": "williams",
+    "Year": 2025
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "max": ["max verstappen", "verstappen"],
+  "ver": ["max verstappen", "verstappen"],
+  "mverstappen": ["max verstappen", "verstappen"],
+
+  "lewis": ["lewis hamilton", "hamilton"],
+  "ham": ["lewis hamilton", "hamilton"],
+  "lhamilton": ["lewis hamilton", "hamilton"],
+
+  "lando": ["lando norris", "norris"],
+  "nor": ["lando norris", "norris"],
+  "lnorris": ["lando norris", "norris"],
+
+  "oscar": ["oscar piastri", "piastri"],
+  "pia": ["oscar piastri", "piastri"],
+  "opiastri": ["oscar piastri", "piastri"],
+
+  "charles": ["charles leclerc", "leclerc"],
+  "lec": ["charles leclerc", "leclerc"],
+  "cleclerc": ["charles leclerc", "leclerc"],
+
+  "carlos": ["carlos sainz", "sainz jr"],
+  "sainz": ["carlos sainz", "sainz jr"],
+  "sai": ["carlos sainz", "sainz jr"],
+
+  "george": ["george russell", "russell"],
+  "rus": ["george russell", "russell"],
+  "grussell": ["george russell", "russell"],
+
+  "fernando": ["fernando alonso", "alonso"],
+  "alo": ["fernando alonso", "alonso"],
+  "falonso": ["fernando alonso", "alonso"],
+
+  "sergio": ["sergio perez", "perez"],
+  "checo": ["sergio perez", "perez"],
+  "per": ["sergio perez", "perez"],
+  "sperez": ["sergio perez", "perez"]
+}

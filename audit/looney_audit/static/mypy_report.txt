@@ -1,0 +1,3 @@
+utils\rate_limit.py: error: Source file found twice under different module names: "rate_limit" and "utils.rate_limit"
+utils\rate_limit.py: note: See https://mypy.readthedocs.io/en/stable/running_mypy.html#mapping-file-paths-to-modules for more info
+utils\rate_limit.py: note: Common resolutions include: a) adding `__init__.py` somewhere, b) using `--explicit-package-bases` or adjusting MYPYPATH

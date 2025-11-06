@@ -1,0 +1,74 @@
+{
+  "british": "United Kingdom",
+  "great britain": "United Kingdom",
+  "gb": "United Kingdom",
+  "gbr": "United Kingdom",
+  "uk": "United Kingdom",
+  "english": "United Kingdom",
+
+  "dutch": "Netherlands",
+  "nld": "Netherlands",
+  "holland": "Netherlands",
+
+  "french": "France",
+  "fra": "France",
+
+  "german": "Germany",
+  "deu": "Germany",
+  "ger": "Germany",
+
+  "italian": "Italy",
+  "ita": "Italy",
+
+  "spanish": "Spain",
+  "esp": "Spain",
+
+  "austrian": "Austria",
+  "aut": "Austria",
+
+  "mexican": "Mexico",
+  "mex": "Mexico",
+
+  "canadian": "Canada",
+  "can": "Canada",
+
+  "australian": "Australia",
+  "aus": "Australia",
+
+  "japanese": "Japan",
+  "jpn": "Japan",
+
+  "chinese": "China",
+  "chn": "China",
+
+  "american": "United States",
+  "usa": "United States",
+  "us": "United States",
+
+  "monégasque": "Monaco",
+  "monegasque": "Monaco",
+  "mco": "Monaco",
+
+  "finnish": "Finland",
+  "fin": "Finland",
+
+  "danish": "Denmark",
+  "dnk": "Denmark",
+  "den": "Denmark",
+
+  "thai": "Thailand",
+  "tha": "Thailand",
+
+  "argentine": "Argentina",
+  "argentinian": "Argentina",
+  "arg": "Argentina",
+
+  "new zealander": "New Zealand",
+  "nz": "New Zealand",
+  "nzl": "New Zealand",
+  "kiwi": "New Zealand",
+
+  "brazilian": "Brazil",
+  "bra": "Brazil",
+  "brz": "Brazil"
+}

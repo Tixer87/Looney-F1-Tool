@@ -1,0 +1,149 @@
+# Diff-Entwurf: A3 - Exception-Spezifität erhöhen
+
+**Datei:** `api/providers/router.py`  
+**Zweck:** Spezifische Exception-Typen statt broad `except Exception`  
+**Status:** **ENTWURF - NICHT ANWENDEN**
+
+---
+
+## Patch 1: router.py - export_payload_with_fallback()
+
+```diff
+--- a/api/providers/router.py
++++ b/api/providers/router.py
+@@ -1,25 +1,37 @@
+ # api/providers/router.py
+ """Router for F1 data providers with Jolpica -> FastF1 fallback"""
+ 
++import logging
+ from typing import Optional, Dict, Any, List
+ from .base import SessionType
+ from . import jolpica_provider as jp
+ from . import fastf1_provider as ff1
+ 
++logger = logging.getLogger(__name__)
++
+ def export_payload_with_fallback(season: int, round_no: int, session: SessionType) -> Optional[Dict[str, Any]]:
+     """Get export payload with Jolpica -> FastF1 fallback"""
+     try:
+         # Try Jolpica first
+         payload = jp.export_payload(season, round_no, session)
+         if payload:
++            logger.debug(f"Jolpica provider succeeded for {season} R{round_no} {session}")
+             return payload
+-    except Exception:
+-        pass
++    except (ConnectionError, TimeoutError, ValueError, KeyError) as e:
++        logger.warning(f"Jolpica provider failed for {season} R{round_no} {session}: {e}")
++    except Exception as e:
++        logger.error(f"Unexpected error in Jolpica provider: {e}")
++        # Re-raise for critical errors (not just API failures)
++        if not isinstance(e, (ImportError, AttributeError)):
++            raise
+         
+     # Fallback to FastF1
+     try:
++        logger.info(f"Falling back to FastF1 for {season} R{round_no} {session}")
+         return ff1.export_payload(season, round_no, session)
+-    except Exception:
++    except (ConnectionError, TimeoutError, ValueError, KeyError) as e:
++        logger.warning(f"FastF1 provider also failed: {e}")
+         return None
++    except Exception as e:
++        logger.error(f"Unexpected error in FastF1 provider: {e}")
++        return None
+```
+
+---
+
+## Patch 2: aggregate.py - build_dual_payload()
+
+```diff
+--- a/api/providers/aggregate.py
++++ b/api/providers/aggregate.py
+@@ -1,10 +1,13 @@
+ """
+ Dual-Source Aggregation System
+ Combines Jolpica and FastF1 data for maximum robustness
+ """
+ 
++import logging
+ from typing import Optional, Dict, Any, List
+ # ... existing imports ...
+ 
++logger = logging.getLogger(__name__)
++
+ def build_dual_payload(season: int, round_no: int, session: str) -> Optional[Payload]:
+     """
+     Build payload from both sources with intelligent fallback
+@@ -114,13 +117,15 @@ def build_dual_payload(season: int, round_no: int, session: str) -> Optional[Pa
+     # Try Jolpica first
+     try:
+         jolpica_payload = JP.export_payload(season, round_no, base_session)
+-    except Exception as e:
+-        # Jolpica failed - log but continue
++        if jolpica_payload:
++            logger.debug(f"Jolpica data retrieved: {len(jolpica_payload.get('drivers', []))} drivers")
++    except (ConnectionError, TimeoutError, ValueError, KeyError) as e:
++        logger.warning(f"Jolpica provider error: {e}")
+         jolpica_payload = None
+     
+     # Try FastF1 second
+     try:
+         fastf1_payload = FF1.export_payload(season, round_no, base_session)
+-    except Exception as e:
+-        # FastF1 failed - log but continue
++        if fastf1_payload:
++            logger.debug(f"FastF1 data retrieved: {len(fastf1_payload.get('drivers', []))} drivers")
++    except (ConnectionError, TimeoutError, ValueError, KeyError) as e:
++        logger.warning(f"FastF1 provider error: {e}")
+         fastf1_payload = None
+```
+
+---
+
+## Zusätzlich: Logging-Konfiguration in main.py
+
+```diff
+--- a/main.py
++++ b/main.py
+@@ -1,8 +1,14 @@
+ # main.py
+ 
+ import argparse
++import logging
+ from api.jolpica_api import get_season_drivers, fetch_race_data
+ # ... existing imports ...
+ 
++# Configure logging
++logging.basicConfig(
++    level=logging.INFO,
++    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
++)
++
+ def map_session_type(endpoint: str) -> str:
+     # ... existing code ...
+```
+
+---
+
+## Begründung
+
+**Problem:**
+- Broad `except Exception:` verschluckt auch `KeyboardInterrupt`, `SystemExit`
+- Erschwert Debugging (keine Fehlermeldungen)
+- Verschleiert echte Bugs (z. B. `AttributeError`)
+
+**Lösung:**
+- Spezifische Exception-Typen für API-Fehler
+- Logging für bessere Diagnose
+- Re-Raise für unerwartete Fehler
+
+**Benefit:**
+- Bessere Fehlerdiagnose
+- User bekommt hilfreiche Fehlermeldungen
+- Entwickler können Bugs schneller finden
+
+---
+
+**Status:** Entwurf - Nicht angewendet (Read-Only Audit)

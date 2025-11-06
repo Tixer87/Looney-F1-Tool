@@ -1,0 +1,98 @@
+{
+  "SessionType": "Race|Qualification|Practice",
+  "RaceType": "Regular|Main|Sprint|Feature|First|Second|Third|Safety|Special",
+  "QualType": "Regular|Q1|Q2|Q3|Q4",
+  "SessionStatus": "FullPoints|HalfPoints|NoPoints",
+  "SessionPosition": 0,
+  "Date": "2024-01-01T00:00:00Z",
+  "FastestLapDriver": {
+    "Name": "string",
+    "Nationality": "string"
+  },
+  "FastestLapTimeInt": 0,
+  "FastestLapNumLap": 0,
+  "DriverDayDriver": {
+    "Name": "string",
+    "Nationality": "string"
+  },
+  "TrackName": "string",
+  "TrackUniqueName": "string",
+  "IsLiveData": false,
+  "LiveRecordPercent": 0,
+  "IsLiveFullRecord": false,
+  "IsSingleplayerMode": false,
+  "LiveStartDate": "2024-01-01T00:00:00Z",
+  "LiveEndDate": "2024-01-01T00:00:00Z",
+  "WeatherType": "Clear|LightCloud|Overcast|LightRain|HeavyRain|Storm",
+  "AirTemperature": 0,
+  "TrackTemperature": 0,
+  "TotalLaps": 0,
+  "SessionDuration": "01:30:00",
+  "SessionDetailsRaw": null,
+  "Drivers": [
+    {
+      "Driver": {
+        "Name": "string",
+        "Nationality": "string"
+      },
+      "RaceNumber": 0,
+      "NationalityIngame": "string",
+      "Position": 1,
+      "Team": {
+        "Name": "string",
+        "UniqueName": "string"
+      },
+      "Car": {
+        "Name": "string",
+        "UniqueName": "string"
+      },
+      "SeatType": "Primary|Reserve|NoSeat",
+      "Status": "Ok|Dns|Dnf|Dsq",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "StintsRaw": "string", //"tire_type:laps:wear_start:wear_end,tire_type:laps:wear_start:wear_end,...", 
+      "FastestLapTimeInt": 0,
+      "FastestLapTyres": "Soft|Medium|Hard|Intermediate|Wet|SuperSoft|UltraSoft|HyperSoft|C1|C2|C3|C4|C5|C6|Option|Prime|Qualifying|Slick|Rain|Snow|Gravel|Mud|Sand|AllTerrain|SemiSlick|Street|StreetVintage|AllWeather",
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,      
+      "LapsCount": 0,
+      "GridPosition": 0,
+      "PitsCount": 0      
+    }
+  ]
+}
+
+StintsRaw, notes:
+
+Format Structure
+Each stint: {tyre_type}:{laps}:{wear_start}:{wear_end}
+Parameters:
+•	tyre_type (required): Numeric value from TyreType enum
+•	laps (required): Number of laps completed on this tire compound
+•	wear_start (optional): Tire wear at stint start (0-100)
+•	wear_end (optional): Tire wear at stint end (0-100)
+TyreType Numeric Values
+Common tire types:
+•	0 = Soft
+•	1 = Medium
+•	2 = Hard
+•	3 = Intermediate
+•	4 = Wet
+•	5 = SuperSoft
+•	6 = UltraSoft
+•	7 = HyperSoft
+•	11-16 = C1-C6 compounds
+•	20 = Option
+•	21 = Prime
+•	22 = Qualifying
+
+Examples:
+"StintsRaw": "1:25::,0:18:0:95,2:12::"
+"StintsRaw": "1:22:0:68,0:20:0:89,2:13:0:72"

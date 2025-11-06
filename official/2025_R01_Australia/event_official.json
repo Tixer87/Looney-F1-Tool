@@ -1,0 +1,28 @@
+{
+  "event": "2025 R1 Australia - Melbourne",
+  "expect": {
+    "Q1": {
+      "count": 19,
+      "top3_drivers": ["Lando Norris", "George Russell", "Max Verstappen"],
+      "top3_numbers": [4, 63, 1]
+    },
+    "Q2": {
+      "count": 15,
+      "top3_drivers": ["Lando Norris", "Oscar Piastri", "Max Verstappen"],
+      "top3_numbers": [4, 81, 1]
+    },
+    "Q3": {
+      "count": 10,
+      "pole_driver": "Lando Norris",
+      "pole_number": 4,
+      "top3_drivers": ["Lando Norris", "Oscar Piastri", "Max Verstappen"]
+    },
+    "Race": {
+      "classified": 20,
+      "winner_driver": "Lando Norris",
+      "winner_number": 4,
+      "top3_drivers": ["Lando Norris", "Max Verstappen", "George Russell"],
+      "total_laps": 57
+    }
+  }
+}

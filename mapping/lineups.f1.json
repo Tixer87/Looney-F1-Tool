@@ -1,0 +1,283 @@
+[ 
+  {
+    "SeatType": "Primary",
+    "Team": "mercedes.2024",
+    "Driver": "Lewis Hamilton",
+    "SeatPosition": 1,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "mercedes.2024",
+    "Driver": "George Russell",
+    "SeatPosition": 2,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "red.bull.2024",
+    "Driver": "Max Verstappen",
+    "SeatPosition": 1,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "red.bull.2024",
+    "Driver": "Sergio Perez",
+    "SeatPosition": 2,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "mclaren.2024",
+    "Driver": "Lando Norris",
+    "SeatPosition": 1,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "mclaren.2024",
+    "Driver": "Oscar Piastri",
+    "SeatPosition": 2,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "aston.martin.2024",
+    "Driver": "Lance Stroll",
+    "SeatPosition": 1,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "aston.martin.2024",
+    "Driver": "Fernando Alonso",
+    "SeatPosition": 2,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "alpine.2024",
+    "Driver": "Esteban Ocon",
+    "SeatPosition": 1,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "alpine.2024",
+    "Driver": "Pierre Gasly",
+    "SeatPosition": 2,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "ferrari.2024",
+    "Driver": "Charles Leclerc",
+    "SeatPosition": 1,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "ferrari.2024",
+    "Driver": "Carlos Sainz Jr.",
+    "SeatPosition": 2,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "racing.bulls.2024",
+    "Driver": "Yuki Tsunoda",
+    "SeatPosition": 1,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "racing.bulls.2024",
+    "Driver": "Daniel Ricciardo",
+    "SeatPosition": 2,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "sauber.2024",
+    "Driver": "Valtteri Bottas",
+    "SeatPosition": 1,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "sauber.2024",
+    "Driver": "Zhou Guanyu",
+    "SeatPosition": 2,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "haas.2024",
+    "Driver": "Kevin Magnussen",
+    "SeatPosition": 1,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "haas.2024",
+    "Driver": "Nico Hülkenberg",
+    "SeatPosition": 2,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "williams.2024",
+    "Driver": "Alexander Albon",
+    "SeatPosition": 1,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "williams.2024",
+    "Driver": "Logan Sargeant",
+    "SeatPosition": 2,
+    "Championship": "f1.2024"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "mercedes.2025",
+    "Driver": "George Russell",
+    "SeatPosition": 1,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "mercedes.2025",
+    "Driver": "Andrea Kimi Antonelli",
+    "SeatPosition": 2,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "red.bull.2025",
+    "Driver": "Max Verstappen",
+    "SeatPosition": 1,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "red.bull.2025",
+    "Driver": "Liam Lawson",
+    "SeatPosition": 2,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "mclaren.2025",
+    "Driver": "Lando Norris",
+    "SeatPosition": 1,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "mclaren.2025",
+    "Driver": "Oscar Piastri",
+    "SeatPosition": 2,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "aston.martin.2025",
+    "Driver": "Fernando Alonso",
+    "SeatPosition": 1,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "aston.martin.2025",
+    "Driver": "Lance Stroll",
+    "SeatPosition": 2,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "alpine.2025",
+    "Driver": "Pierre Gasly",
+    "SeatPosition": 1,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "alpine.2025",
+    "Driver": "Jack Doohan",
+    "SeatPosition": 2,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "ferrari.2025",
+    "Driver": "Charles Leclerc",
+    "SeatPosition": 1,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "ferrari.2025",
+    "Driver": "Lewis Hamilton",
+    "SeatPosition": 2,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "racing.bulls.2025",
+    "Driver": "Yuki Tsunoda",
+    "SeatPosition": 1,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "racing.bulls.2025",
+    "Driver": "Isack Hadjar",
+    "SeatPosition": 2,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "sauber.2025",
+    "Driver": "Nico Hülkenberg",
+    "SeatPosition": 1,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "sauber.2025",
+    "Driver": "Gabriel Bortoleto",
+    "SeatPosition": 2,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "haas.2025",
+    "Driver": "Esteban Ocon",
+    "SeatPosition": 1,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "haas.2025",
+    "Driver": "Oliver Bearman",
+    "SeatPosition": 2,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "williams.2025",
+    "Driver": "Alexander Albon",
+    "SeatPosition": 1,
+    "Championship": "f1.2025"
+  },
+  {
+    "SeatType": "Primary",
+    "Team": "williams.2025",
+    "Driver": "Carlos Sainz Jr.",
+    "SeatPosition": 2,
+    "Championship": "f1.2025"
+  }
+
+]
