@@ -1,0 +1,312 @@
+{
+  "SessionType": "Qualification",
+  "RaceType": "Regular",
+  "QualType": "Q3",
+  "SessionStatus": "FullPoints",
+  "SessionPosition": 2,
+  "FastestLapTimeInt": 75096,
+  "FastestLapNumLap": 0,
+  "TrackName": "Melbourne",
+  "TrackUniqueName": "albert.park.2021",
+  "IsLiveData": false,
+  "LiveRecordPercent": 0,
+  "IsLiveFullRecord": false,
+  "IsSingleplayerMode": false,
+  "WeatherType": "Clear",
+  "AirTemperature": 0,
+  "TrackTemperature": 0,
+  "TotalLaps": 0,
+  "SessionDuration": "00:00:00",
+  "Drivers": [
+    {
+      "Driver": {
+        "Name": "Lando Norris",
+        "InGameName": "Lando Norris"
+      },
+      "RaceNumber": 4,
+      "Position": 1,
+      "Team": {
+        "Name": "McLaren",
+        "UniqueName": "mclaren.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 75096,
+      "GapInt": 0,
+      "FastestLapTimeInt": 75096,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 1,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Oscar Piastri",
+        "InGameName": "Oscar Piastri"
+      },
+      "RaceNumber": 81,
+      "Position": 2,
+      "Team": {
+        "Name": "McLaren",
+        "UniqueName": "mclaren.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 75180,
+      "GapInt": 84,
+      "FastestLapTimeInt": 75180,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 2,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Max Verstappen",
+        "InGameName": "Max Verstappen"
+      },
+      "RaceNumber": 1,
+      "Position": 3,
+      "Team": {
+        "Name": "Red Bull",
+        "UniqueName": "red.bull.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 75481,
+      "GapInt": 385,
+      "FastestLapTimeInt": 75481,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 3,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "George Russell",
+        "InGameName": "George Russell"
+      },
+      "RaceNumber": 63,
+      "Position": 4,
+      "Team": {
+        "Name": "Mercedes",
+        "UniqueName": "mercedes.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 75545,
+      "GapInt": 449,
+      "FastestLapTimeInt": 75545,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 4,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Yuki Tsunoda",
+        "InGameName": "Yuki Tsunoda"
+      },
+      "RaceNumber": 22,
+      "Position": 5,
+      "Team": {
+        "Name": "Racing Bulls",
+        "UniqueName": "racing.bulls.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 75670,
+      "GapInt": 574,
+      "FastestLapTimeInt": 75670,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 5,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Alexander Albon",
+        "InGameName": "Alexander Albon"
+      },
+      "RaceNumber": 23,
+      "Position": 6,
+      "Team": {
+        "Name": "Williams",
+        "UniqueName": "williams.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 75737,
+      "GapInt": 641,
+      "FastestLapTimeInt": 75737,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 6,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Charles Leclerc",
+        "InGameName": "Charles Leclerc"
+      },
+      "RaceNumber": 16,
+      "Position": 7,
+      "Team": {
+        "Name": "Ferrari",
+        "UniqueName": "ferrari.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 75755,
+      "GapInt": 659,
+      "FastestLapTimeInt": 75755,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 7,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Lewis Hamilton",
+        "InGameName": "Lewis Hamilton"
+      },
+      "RaceNumber": 44,
+      "Position": 8,
+      "Team": {
+        "Name": "Ferrari",
+        "UniqueName": "ferrari.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 75973,
+      "GapInt": 877,
+      "FastestLapTimeInt": 75973,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 8,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Pierre Gasly",
+        "InGameName": "Pierre Gasly"
+      },
+      "RaceNumber": 10,
+      "Position": 9,
+      "Team": {
+        "Name": "Alpine",
+        "UniqueName": "alpine.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 75980,
+      "GapInt": 884,
+      "FastestLapTimeInt": 75980,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 9,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Carlos Sainz Jr.",
+        "InGameName": "Carlos Sainz Jr."
+      },
+      "RaceNumber": 55,
+      "Position": 10,
+      "Team": {
+        "Name": "Williams",
+        "UniqueName": "williams.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 76062,
+      "GapInt": 966,
+      "FastestLapTimeInt": 76062,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 10,
+      "PitsCount": 0
+    }
+  ]
+}
