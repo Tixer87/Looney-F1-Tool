@@ -1,102 +1,103 @@
-**Release Date:** 6. November 2025
+**Release date:** 6 Nov 2025
 **Status:** Pre-release (Beta)
 **Tag:** `v1.7.2_beta`
-**Ziel:** RLT-ready JSON Exporte inkl. Qualifying-Split, Full-Event-Export, Validatoren.
 
 ---
 
-## 🎯 Major Features
+## ✨ Highlights
 
-### 1) Qualifying Split Export (Q1/Q2/Q3)
+### 🏁 Qualifying Split Export (Q1 / Q2 / Q3)
 
-* Lädt **eine** FastF1-Session `Q` und erzeugt **drei** Dateien: `..._Q1.json`, `..._Q2.json`, `..._Q3.json`.
-* Segmentlogik:
+* Loads **one** FastF1 `Q` session and writes **three** JSON files: `..._Q1.json`, `..._Q2.json`, `..._Q3.json`.
+* Knockout logic:
 
-  * **Q1:** alle Fahrer mit Q1-Zeit
-  * **Q2:** Top-15 mit Q2-Zeit
-  * **Q3:** Top-10 mit Q3-Zeit
-* Pro Datei nur **Segmentzeit** (keine „Best of all“-Zeit).
-* Sortierung aufsteigend nach Zeit; Zeitwerte als **Integer ms**.
-* RLT-Felder: `Session="Q1|Q2|Q3"`, `TrackName`, `TrackUniqueName`, saubere Driver/Team-Mappings.
+  * **Q1:** all drivers with Q1 time
+  * **Q2:** top 15 with Q2 time
+  * **Q3:** top 10 with Q3 time
+* Each file contains **segment times only** (no cross-segment best).
+* Sorted by time ascending; times stored as **integer milliseconds**.
+* RLT-ready layout: `Session = Q1|Q2|Q3`, correct `TrackName`/`TrackUniqueName`, clean driver/team mapping.
 
-### 2) Full Event Export (Orchestrator)
+### 🚀 Full Event Export (One-click)
 
-* Ein Lauf exportiert **FP1, FP2, FP3, Q1–Q3,** optional **Sprint**, **Race**.
-* Fehlende Sessions (kein Sprint-WE etc.) werden robust übersprungen und geloggt.
+Exports **FP1, FP2, FP3, Q1–Q3,** optional **Sprint**, and **Race** in one go.
+Missing sessions (e.g., no sprint weekend) are skipped gracefully with clear logs.
 
-### 3) Validation & Tests
+### 🧪 Validation & Tests
 
-* `tools/validate_official_results.py` – vergleicht Exporte mit offiziellen Resultaten (Top-3, Pole, Winner, Counts).
-* `tools/check_quali_exports.py` – Sanity-Check (ms-Typ, Sortierung, Segment-Counts).
-* `tests/*` – Pytest-Abdeckung für Splitting & Dateien.
+* `tools/validate_official_results.py` – checks exports vs official results (Top-3, Pole, Winner, counts).
+* `tools/check_quali_exports.py` – sanity checks (ms type, sorting, segment counts).
+* `tests/*` – pytest coverage for splitting and file outputs.
 
-### 4) Year-Based Provider Routing
+### 📅 Year-based Provider Routing
 
-* Automatische Provider-Wahl nach Saisonjahr:
+* **≥ 2023:** FastF1
+* **≤ 2022:** Jolpica (historical fallback)
+  Zero manual switching needed.
 
-  * **≥ 2023:** FastF1
-  * **≤ 2022:** Jolpica (Fallback für Historie)
-* Transparenter Export ohne manuelle Umschaltung.
+### 🗺️ Circuit & Mapping Improvements
 
-### 5) Mapping & Circuit Aliases
-
-* Circuit-Auflösung gemäß `circuits.json`: `TrackName` = `CircuitName`, `TrackUniqueName` = `UniqueName`.
-* Zusätzliche Aliase (Akzent/Schreibweise): Montréal/Montreal, São Paulo/Interlagos, Mexico/Mexico City, Budapest/Hungaroring, Marina Bay/Singapore, Lusail/Losail, Yas Island/Yas Marina u. a.
-* Teams sauber getrennt: **Red Bull Racing** ≠ **Racing Bulls (RB/VCARB)**.
+* Circuit mapping: `TrackName = CircuitName`, `TrackUniqueName = UniqueName` (from `circuits.json`).
+* Extra aliases (accents/spellings): Montréal/Montreal, São Paulo/Interlagos, Mexico/Mexico City, Budapest/Hungaroring, Marina Bay/Singapore, Lusail/Losail, Yas Island/Yas Marina, etc.
+* Team mapping clarified: **Red Bull Racing** ≠ **Racing Bulls (RB / VCARB)**.
 
 ---
 
 ## 🔧 Technical Improvements
 
-* **Deep-copy Fix** beim Segment-Split (keine Payload-Übernahme zwischen Q1/Q2/Q3).
-* **Type Hints** und klare Konverter `_to_ms()` für stabile ms-Werte.
-* **Dateinamen** konsistent: `YYYY_<TrackName>_<Session>.json`.
-* **GUI-Titel** zeigt jetzt korrekt `v1.7.2_beta`.
+* Deep-copy fix during Q split (no payload bleed between Q1/Q2/Q3).
+* Type hints and stable `_to_ms()` conversions (always int ms).
+* Consistent filenames: `YYYY_<TrackName>_<Session>.json`.
+* GUI now shows **v1.7.2_beta**.
 
 ---
 
-## 📊 Performance
+## ⚡ Performance
 
-* Exportdauer Australien (komplett): wenige Sekunden je Session inkl. Q-Split.
-* Lean JSONs (Q3 meist am kleinsten, da Top-10).
+* Australia full export completes in a few seconds per session (including Q split).
+* Lean JSON sizes (Q3 typically smallest due to top-10 only).
 
 ---
 
-## ✅ Validation Status (Australia 2025 – R1, Melbourne)
+## ✅ Validation (Australia 2025 – Round 1, Melbourne)
 
-* FP1–FP3: je 20 Fahrer
-* Q1 (19), Q2 (15), Q3 (10) – **Pole: Norris #4**
-* Race: **Winner: Norris #4**
-* RLT-Compliance: 3/3 Quali-Files ok
-* Pytest: grün
+* FP1–FP3: 20 drivers each
+* Q1 (19), Q2 (15), Q3 (10) — **Pole: Lando Norris #4**
+* Race — **Winner: Lando Norris #4**
+* RLT compliance: ✅ all 3 quali files
+* Pytest: ✅ all tests green
 
 ---
 
 ## 🐞 Known Issues
 
-1. **Sprint-Varianten**: Export nur, wenn Wochenende Sprint enthält; einzelne Events erfordern ggf. Alias-Nachpflege.
-2. **Misch-Saisons**: Nutzung 2024-Daten mit 2025-Lineup erzeugt Warnungen (Design-bedingt, Export ok).
+1. **Sprint variants:** Export only created when the weekend actually has sprint sessions (some events may need an extra alias).
+2. **Mixed seasons:** Using 2024 data with a 2025 lineup yields warnings (by design); exports are still valid.
 
 ---
 
-## 📦 Dateien (relevant)
+## 🗂️ Key Files & Modules
 
-* `core/export_event.py` – Orchestrator (All Sessions)
-* `export/qualifying_exporter.py` – Q → Q1/Q2/Q3
+* `core/export_event.py` — one-click “All Sessions” orchestrator
+* `export/qualifying_exporter.py` — Q → Q1/Q2/Q3 splitter
 * `tools/validate_official_results.py`, `tools/check_quali_exports.py`, `tools/export_batch.py`
-* `api/providers/*` – Provider & Routing
-* `mapping/*` – Aliase/Mappings (Teams, Circuits)
+* `api/providers/*` — provider routing
+* `mapping/*` — teams/circuits aliases
 
 ---
 
-## 🚀 Verwendung
+## 📥 Installation & Usage
 
-1. Release-ZIP laden, entpacken, `LooneyF1Tool.exe` starten.
-2. **All Sessions** wählen → FP/Quali-Split/Race landen im Exportordner.
-3. Validator ausführen (`tools/validate_official_results.py`) und anschließend RLT-Import (Q1/Q2/Q3 + Race).
+1. Download the ZIP from this release.
+2. Extract and run `LooneyF1Tool.exe`.
+3. Pick **Season** and **Round**, click **All Sessions**.
+4. Import into RLT: use the three quali files (Q1/Q2/Q3) + Race separately.
+
+**Checksum (ZIP):**
+
+```
+F804C8D0ABFE1EC947D87B585D2F148637B71C45186107E9B4F87D2A0C4D91E0
+```
 
 ---
 
-**Version:** 1.7.2_beta • **Tag:** `v1.7.2_beta` • **Status:** Beta
-
----
