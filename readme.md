@@ -17,9 +17,9 @@ Now with **Qualifying split** (Q → Q1/Q2/Q3) and **Full Event Export**.
 4. Quali Q1/Q2/Q3 + Race land in your export folder
 
 ## Tools
-- 	ools/validate_official_results.py
-- 	ools/check_quali_exports.py
-- 	ools/export_batch.py
+- 	tools/validate_official_results.py
+- 	tools/check_quali_exports.py
+- 	tools/export_batch.py
 
 ## Notes
 - All times are **integer ms**
