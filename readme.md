@@ -114,8 +114,6 @@ If you use this tool in content or league operations, a quick mention or star he
 
 **Looney F1 Tool v1.7.2_beta** — fast, mapped, and Racing League Tools–ready. Enjoy the clean exports and have a great season.
 
-Append this at the very end of your README:
-
 ---
 [![Buy me a beer](https://img.shields.io/badge/Buy%20me%20a%20beer-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000)](https://www.buymeacoffee.com/ktixerx)
 
