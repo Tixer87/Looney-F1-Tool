@@ -1,6 +1,6 @@
 # Looney F1 Tool — v1.7.2_beta
 
-The F1 data exporter that turns **Jolpica / FastF1** sessions into **RLT-ready JSON**.  
+The F1 data exporter that turns **Jolpica / FastF1** sessions into **Racing League Tools-ready JSON**.  
 Now with **Qualifying split** (Q → Q1/Q2/Q3) and **Full Event Export**.
 
 ![Looney F1 v1.7.2_beta](https://img.shields.io/badge/Looney%20F1-v1.7.2_beta-magenta?style=for-the-badge&logo=formula1)
