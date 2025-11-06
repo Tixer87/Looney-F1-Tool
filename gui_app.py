@@ -539,16 +539,20 @@ class LooneyF1GUI:
                 last_path = None
                 for idx, code in enumerate(sessions_to_export, start=1):
                     try:
-                        self.log.add("INFO", f"Exporting {season} R{round_no} {code}...")
+                        # Thread-safe log update
+                        self.root.after(0, lambda c=code: self.log.add("INFO", f"Exporting {season} R{round_no} {c}..."))
                         result_path = run_export(season, round_no, cast(SessionCode, code), out_dir, verbose)
                         if result_path:
                             success += 1
                             last_path = result_path
-                            self.log.add("DONE", f"File written: {Path(result_path).name}")
+                            # Thread-safe log update
+                            self.root.after(0, lambda p=Path(result_path).name: self.log.add("DONE", f"File written: {p}"))
                         else:
-                            self.log.add("WARN", f"No data available for {code}")
+                            # Thread-safe log update
+                            self.root.after(0, lambda c=code: self.log.add("WARN", f"No data available for {c}"))
                     except Exception as e:
-                        self.log.add("ERROR", f"Export failed for {code}: {e}")
+                        # Thread-safe log update
+                        self.root.after(0, lambda c=code, err=str(e): self.log.add("ERROR", f"Export failed for {c}: {err}"))
                     finally:
                         # Incremental progress
                         self.root.after(0, lambda v=int(10 + (idx/total)*80): self.progress_bar.config(value=v))
