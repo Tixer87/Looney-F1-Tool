@@ -22,10 +22,10 @@ except Exception:  # pragma: no cover
 # Session Group Mapping - User selects groups, system exports individual sessions
 SESSION_GROUPS = {
     "Practice": ["FP1", "FP2", "FP3"],
-    "Qualifying": ["Q1", "Q2", "Q3"],
+    "Qualifying": ["Q"],  # ✅ Fixed: Single "Q" triggers FastF1 split into Q1/Q2/Q3
     "Sprint": ["SQ", "SS", "SR"], 
     "Race": ["R"],
-    "All Sessions": ["FP1", "FP2", "FP3", "Q1", "Q2", "Q3", "SQ", "SS", "SR", "R"]
+    "All Sessions": ["FP1", "FP2", "FP3", "Q", "SQ", "SS", "SR", "R"]  # ✅ Fixed: "Q" instead of Q1/Q2/Q3
 }
 
 def expand_session_group(session_input: str) -> list[str]:
