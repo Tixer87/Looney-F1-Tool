@@ -114,3 +114,5 @@ pytest-report.html
 
 
 *.zip
+
+.venv*/
