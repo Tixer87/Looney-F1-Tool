@@ -14,7 +14,8 @@
     "Aliases": [
       "Circuit of the Americas",
       "COTA",
-      "Austin"
+      "Austin",
+      "United States Grand Prix"
     ]
   },
   {
@@ -50,14 +51,15 @@
     "NumberTurns": 20,
     "Aliases": [
       "Baku City Circuit",
-      "Baku"
+      "Baku",
+      "Azerbaijan Grand Prix"
     ]
   },
   {
     "UniqueName": "barcelona.2021",
     "CircuitName": "Barcelona",
     "CircuitFullName": "Circuit de Barcelona-Catalunya",
-    "LocationName": "Montmeló",
+    "LocationName": "MontmelÃ³",
     "CircuitOrigin": "Barcelona",
     "Years": "2021",
     "TrackLayout": "GrandPrix",
@@ -75,7 +77,7 @@
     "UniqueName": "hungaroring.2003",
     "CircuitName": "Hungaroring",
     "CircuitFullName": "Hungaroring",
-    "LocationName": "Mogyoród",
+    "LocationName": "MogyorÃ³d",
     "CircuitOrigin": "Hungaroring",
     "Years": "2003",
     "TrackLayout": "GrandPrix",
@@ -85,7 +87,8 @@
     "NumberTurns": 14,
     "Aliases": [
       "Hungaroring",
-      "Budapest"
+      "Budapest",
+      "Hungarian Grand Prix"
     ]
   },
   {
@@ -103,14 +106,15 @@
     "Aliases": [
       "Imola",
       "Autodromo Enzo e Dino Ferrari",
-      "Autodromo Internazionale Enzo e Dino Ferrari"
+      "Autodromo Internazionale Enzo e Dino Ferrari",
+      "Emilia Romagna Grand Prix"
     ]
   },
   {
     "UniqueName": "interlagos.2000",
     "CircuitName": "Interlagos",
-    "CircuitFullName": "Autódromo José Carlos Pace",
-    "LocationName": "São Paulo",
+    "CircuitFullName": "AutÃ³dromo JosÃ© Carlos Pace",
+    "LocationName": "SÃ£o Paulo",
     "CircuitOrigin": "Interlagos",
     "Years": "2000",
     "TrackLayout": "GrandPrix",
@@ -120,9 +124,11 @@
     "NumberTurns": 15,
     "Aliases": [
       "Interlagos",
-      "Autódromo José Carlos Pace",
+      "AutÃ³dromo JosÃ© Carlos Pace",
       "Sao Paulo",
-      "São Paulo"
+      "SÃ£o Paulo",
+      "São Paulo Grand Prix",
+      "Brazilian Grand Prix"
     ]
   },
   {
@@ -139,7 +145,8 @@
     "NumberTurns": 27,
     "Aliases": [
       "Jeddah Corniche Circuit",
-      "Jeddah"
+      "Jeddah",
+      "Saudi Arabian Grand Prix"
     ]
   },
   {
@@ -164,7 +171,7 @@
   {
     "UniqueName": "mexico.2015",
     "CircuitName": "Mexico",
-    "CircuitFullName": "Autódromo Hermanos Rodríguez",
+    "CircuitFullName": "AutÃ³dromo Hermanos RodrÃ­guez",
     "LocationName": "Mexico City",
     "CircuitOrigin": "Mexico",
     "Years": "2015",
@@ -174,10 +181,11 @@
     "Length": 4304,
     "NumberTurns": 17,
     "Aliases": [
-      "Autódromo Hermanos Rodríguez",
+      "AutÃ³dromo Hermanos RodrÃ­guez",
       "Mexico City Grand Prix",
       "Mexico",
-      "Mexico City"
+      "Mexico City",
+      "Mexican Grand Prix"
     ]
   },
   {
@@ -194,7 +202,8 @@
     "NumberTurns": 19,
     "Aliases": [
       "Circuit de Monaco",
-      "Monaco"
+      "Monaco",
+      "Monaco Grand Prix"
     ]
   },
   {
@@ -212,7 +221,8 @@
     "Aliases": [
       "Circuit Gilles Villeneuve",
       "Montreal",
-      "Montréal"
+      "MontrÃ©al",
+      "Canadian Grand Prix"
     ]
   },
   {
@@ -229,7 +239,8 @@
     "NumberTurns": 11,
     "Aliases": [
       "Autodromo Nazionale di Monza",
-      "Monza"
+      "Monza",
+      "Italian Grand Prix"
     ]
   },
   {
@@ -264,7 +275,8 @@
     "NumberTurns": 18,
     "Aliases": [
       "Silverstone Circuit",
-      "Silverstone"
+      "Silverstone",
+      "British Grand Prix"
     ]
   },
   {
@@ -300,7 +312,8 @@
     "Aliases": [
       "Marina Bay Street Circuit",
       "Singapore",
-      "Marina Bay"
+      "Marina Bay",
+      "Singapore Grand Prix"
     ]
   },
   {
@@ -318,7 +331,8 @@
     "Aliases": [
       "Spa",
       "Spa-Francorchamps",
-      "Circuit de Spa-Francorchamps"
+      "Circuit de Spa-Francorchamps",
+      "Belgian Grand Prix"
     ]
   },
   {
@@ -335,7 +349,8 @@
     "NumberTurns": 10,
     "Aliases": [
       "Red Bull Ring",
-      "Spielberg"
+      "Spielberg",
+      "Austrian Grand Prix"
     ]
   },
   {
@@ -373,7 +388,8 @@
     "Aliases": [
       "Yas Marina Circuit",
       "Yas Marina",
-      "Yas Island"
+      "Yas Island",
+      "Abu Dhabi Grand Prix"
     ]
   },
   {
@@ -390,7 +406,8 @@
     "NumberTurns": 14,
     "Aliases": [
       "Circuit Zandvoort",
-      "Zandvoort"
+      "Zandvoort",
+      "Dutch Grand Prix"
     ]
   },
   {
@@ -407,7 +424,8 @@
     "NumberTurns": 19,
     "Aliases": [
       "Miami International Autodrome",
-      "Miami"
+      "Miami",
+      "Miami Grand Prix"
     ]
   },
   {
@@ -425,7 +443,8 @@
     "Aliases": [
       "Losail International Circuit",
       "Losail",
-      "Lusail"
+      "Lusail",
+      "Qatar Grand Prix"
     ]
   },
   {
@@ -442,7 +461,8 @@
     "NumberTurns": 17,
     "Aliases": [
       "Las Vegas Strip Circuit",
-      "Las Vegas"
+      "Las Vegas",
+      "Las Vegas Grand Prix"
     ]
   }
 ]
