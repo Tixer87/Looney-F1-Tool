@@ -117,9 +117,5 @@ If you use this tool in content or league operations, a quick mention or star he
 Append this at the very end of your README:
 
 ---
+[![Buy me a beer](https://img.shields.io/badge/Buy%20me%20a%20beer-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000)](https://www.buymeacoffee.com/ktixerx)
 
-## Support this project ☕
-
-If this tool saves you time, you can **buy me a coffee**:
-
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ktixerx" data-color="#FFDD00" data-emoji="🍺"  data-font="Cookie" data-text="Buy me a beer" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
