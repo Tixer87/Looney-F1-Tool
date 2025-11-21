@@ -23,9 +23,9 @@ except Exception:  # pragma: no cover
 SESSION_GROUPS = {
     "Practice": ["FP1", "FP2", "FP3"],
     "Qualifying": ["Q"],  # ✅ Fixed: Single "Q" triggers FastF1 split into Q1/Q2/Q3
-    "Sprint": ["SQ", "SS", "SR"], 
+    "Sprint": ["SQ", "S"],  # Sprint Qualifying + Sprint Race
     "Race": ["R"],
-    "All Sessions": ["FP1", "FP2", "FP3", "Q", "SQ", "SS", "SR", "R"]  # ✅ Fixed: "Q" instead of Q1/Q2/Q3
+    "All Sessions": ["FP1", "FP2", "FP3", "SQ", "S", "Q", "R"]  # Sprint weekend order: FP1, SQ, S, Q, R
 }
 
 def expand_session_group(session_input: str) -> list[str]:

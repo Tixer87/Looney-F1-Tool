@@ -655,7 +655,7 @@ class LooneyF1GUI:
 
         # Filter sprint items if event has no sprint
         if has_sprint is False:
-            sessions_to_export = [s for s in sessions_to_export if s not in ("SQ", "SS", "S", "SR")]
+            sessions_to_export = [s for s in sessions_to_export if s not in ("SQ", "S")]
 
         if len(sessions_to_export) > 1:
             self.log.add("STEP", f"Exporting {len(sessions_to_export)} sessions for Season {season}, Round {round_no}")
