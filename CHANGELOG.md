@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **New `live_recorder` subsystem** for real-time F1 session recording
   - Connects to [f1-dash](https://github.com/Tixer87/f1-dash) SSE service and records live sessions
   - Detects laps, pitstops, race control events (SC/VSC/Red Flag) and weather updates
-  - Exports fully RLT-compatible JSON at session end
+  - Exports fully Racing League Tools (RLT) compatible JSON at session end
   - **100% test coverage** (6/6 tests passing, 0 warnings, Python 3.12 compatible)
 
 ### Technical Implementation
