@@ -129,6 +129,28 @@ def main():
         action="store_true",
         help="Enable demo logging to release/v1.7/logs/app_demo.log (for testing)"
     )
+    parser.add_argument(
+        "--backend",
+        choices=["jolpica", "fastf1", "f1dash_live"],
+        default="jolpica",
+        help="Backend to use: jolpica (default), fastf1, or f1dash_live"
+    )
+    parser.add_argument(
+        "--mode",
+        choices=["export", "record"],
+        default="export",
+        help="Mode: export (default) or record (for live recording)"
+    )
+    parser.add_argument(
+        "--f1dash-url",
+        default="http://localhost:4000",
+        help="f1-dash URL for live recording (default: http://localhost:4000)"
+    )
+    parser.add_argument(
+        "--output-dir",
+        default="./output/live",
+        help="Output directory for live recordings (default: ./output/live)"
+    )
     
     args = parser.parse_args()
     
@@ -143,7 +165,54 @@ def main():
     else:
         logger = get_logger("looney", level=args.log_level)
     
-    logger.info(f"Looney F1 Tool {__version__} starting", log_level=args.log_level)
+    logger.info(f"Looney F1 Tool {__version__} starting", log_level=args.log_level, backend=args.backend, mode=args.mode)
+    
+    # Handle live recording mode
+    if args.backend == "f1dash_live" and args.mode == "record":
+        from live_recorder.recorder import LiveSessionRecorder
+        from live_recorder.exporter import LiveToRLTExporter
+        from pathlib import Path
+        import json
+        
+        print(f"🎬 Starting f1-dash live recording...")
+        print(f"📡 Connecting to: {args.f1dash_url}")
+        print(f"💾 Output directory: {args.output_dir}")
+        print(f"🛑 Press Ctrl+C to stop recording\n")
+        
+        recorder = LiveSessionRecorder(f1dash_url=args.f1dash_url)
+        
+        try:
+            recorder.start()
+            recorder.wait()  # Blocks until Ctrl+C or session end
+        except KeyboardInterrupt:
+            print("\n⏹️  Recording stopped by user")
+        finally:
+            if recorder.state:
+                # Export RLT JSON
+                recorder.state.freeze()
+                exporter = LiveToRLTExporter(recorder.state)
+                rlt_json = exporter.export()
+                
+                # Save to file
+                output_path = Path(args.output_dir)
+                output_path.mkdir(parents=True, exist_ok=True)
+                
+                filename = f"{recorder.state.event_name.replace(' ', '_')}_{recorder.state.session_name}_{recorder.state.year}.json"
+                filepath = output_path / filename
+                
+                with open(filepath, "w", encoding="utf-8") as f:
+                    json.dump(rlt_json, f, indent=2, ensure_ascii=False)
+                
+                print(f"\n✅ Exported: {filepath}")
+                print(f"📊 Drivers: {len(rlt_json['Drivers'])}")
+                print(f"🏁 Laps: {recorder.state.current_lap}/{recorder.state.total_laps}")
+                print(f"🚨 Safety Cars: {recorder.state.safety_car_count}")
+                logger.info("Live recording completed", filepath=str(filepath), drivers=len(rlt_json['Drivers']))
+            else:
+                print("⚠️  No session data recorded")
+                logger.warning("No session data available for export")
+        
+        return
     
     print_welcome_banner()
     print()
