@@ -8,6 +8,8 @@ pandas>=2.2.0
 numpy>=2.0.0
 fastf1>=3.6.0
 flask-socketio>=5.3.6
+sseclient-py>=1.8.0
+python-dateutil>=2.8.0
 
 # GUI and packaging dependencies
 pyinstaller>=6.10.0
