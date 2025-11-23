@@ -1,15 +1,17 @@
-# Looney F1 Tool — v1.7.2_beta
+# Looney F1 Tool — v1.8.0
 
 Turn real Formula 1 sessions from **Jolpica / FastF1** into **Racing League Tools–ready JSON**—fully mapped, cleanly structured, and exportable with one click.
-This release introduces the **Qualifying split** (Q ➜ Q1/Q2/Q3) and a **Full Event Export** that saves you time and avoids manual stitching.
 
-![Looney F1 v1.7.2\_beta](https://img.shields.io/badge/Looney%20F1-v1.7.2_beta-magenta?style=for-the-badge\&logo=formula1)
+**NEW in v1.8.0**: **Live Recording** via [f1-dash](https://github.com/Tixer87/f1-dash) integration! Record live F1 sessions in real-time and export RLT-compatible JSON at session end.
+
+![Looney F1 v1.8.0](https://img.shields.io/badge/Looney%20F1-v1.8.0-magenta?style=for-the-badge\&logo=formula1)
 
 ---
 
 ## What it does ✨
 
-* **Qualifying split**: Loads a single “Q” session and outputs three separate JSON files for **Q1**, **Q2**, and **Q3**, matching Racing League Tools’ native import flow.
+* **Live Recording** (NEW): Connect to f1-dash and record live F1 sessions in real-time with automatic lap/pitstop/race control detection and RLT export.
+* **Qualifying split**: Loads a single "Q" session and outputs three separate JSON files for **Q1**, **Q2**, and **Q3**, matching Racing League Tools' native import flow.
 * **Full Event Export**: One action exports **FP1, FP2, FP3, Q1–Q3, Sprint (if present), and Race** into your chosen folder—no manual merges, no guesswork.
 * **Trustworthy output**: Results are validated against official classifications with built-in tools, so what you export is what you expect.
 
@@ -89,11 +91,56 @@ That’s it—no manual editing, no stitching of partial results.
 
 ---
 
+## Live Recording (f1-dash) 🎬
+
+Looney F1 can now record **live F1 sessions** via the [f1-dash](https://github.com/Tixer87/f1-dash) SSE service and produce a ready-to-import RLT-compatible JSON export at the end of the session.
+
+### Requirements
+
+- A running `f1-dash` instance (live service on `http://localhost:4000`)
+- Python dependencies installed: `sseclient-py`, `python-dateutil`
+
+### What gets recorded
+
+During a live session, Looney F1 continuously consumes the `initial` and `update` SSE events from f1-dash and builds its own session state:
+
+- **Session meta**: event name, circuit, country, year, session type
+- **Driver data**: number, name, team, country
+- **Timing**: positions, laps completed, best/last laptimes
+- **Stints & pitstops**: compound in/out, stop lap, stop count
+- **Race control**: Safety Car, Virtual Safety Car, Red Flags (with de-duplicated timestamps)
+- **Weather** (if available): air/track temperature, rainfall, wind
+
+At the end of the session (or when the recording is stopped), the state is frozen and exported as a single RLT-compatible JSON file.
+
+### How to use
+
+1. Start `f1-dash` and verify it is reachable at `http://localhost:4000`
+2. Run Looney F1 in live recording mode:
+
+   ```bash
+   python main.py \
+     --backend f1dash_live \
+     --mode record \
+     --f1dash-url http://localhost:4000 \
+     --output-dir ./output/live
+   ```
+
+3. Let the recorder run for the whole session
+4. After the session finishes, Looney F1 writes a JSON file to the output directory, containing:
+   - A meta block (event, track, year, session, race control stats)
+   - One driver block per car (position, laps, status, pitstops, best laptime)
+
+This JSON can be used wherever you previously used Jolpica/FastF1 exports—with the added benefit that all race control and pitstop data comes from a true live recording.
+
+---
+
 ## Notes & known limitations 🔎
 
 * Sprint sessions are exported only for sprint weekends.
 * Timing is always stored as **integer milliseconds**.
 * Team and circuit mappings are centralized; if an event uses an unusual alias, it may require an alias update before export.
+* **Live recording** requires f1-dash to be running and accessible.
 
 ---
 

@@ -5,6 +5,62 @@ All notable changes to the Looney F1 Tool will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+---
+
+## [1.8.0] - 2025-11-23
+
+### ✨ Added - Live Recording via f1-dash Integration
+
+- **New `live_recorder` subsystem** for real-time F1 session recording
+  - Connects to [f1-dash](https://github.com/Tixer87/f1-dash) SSE service and records live sessions
+  - Detects laps, pitstops, race control events (SC/VSC/Red Flag) and weather updates
+  - Exports fully RLT-compatible JSON at session end
+  - **100% test coverage** (6/6 tests passing, 0 warnings, Python 3.12 compatible)
+
+### Technical Implementation
+
+- **New module tree**:
+  - `live_recorder/state.py` – Session and driver state data classes
+  - `live_recorder/processor.py` – Event processing pipeline with case-insensitive parsing
+  - `live_recorder/recorder.py` – SSE orchestration and recording lifecycle
+  - `live_recorder/exporter.py` – RLT JSON exporter for live sessions
+  - `live_recorder/detectors/` – Lap, pitstop and race control detectors
+  - `live_recorder/client.py` – SSE client wrapper
+
+- **CLI integration**:
+  - New `--backend f1dash_live` option
+  - New `--mode record` option for live recording
+  - New `--f1dash-url` option (default: http://localhost:4000)
+  - New `--output-dir` option for live recordings
+
+### 🐛 Fixed
+
+- Team name mapping for f1-dash data (Red Bull Racing → Red Bull, Visa Cash App RB → Racing Bulls, etc.)
+- Nation mapping using direct `countryCode` from f1-dash
+- Driver name extraction using `fullName` field
+- Case-sensitivity handling for f1-dash events (CamelCase + lowercase fallback)
+- DNF handling in lap detection (retired/stopped drivers skipped)
+- Pitstop detection for mid-session starts (stint count initialization)
+- Race control parsing with auto-category detection
+- Python 3.12 compatibility (replaced deprecated `datetime.utcnow()`)
+
+### 📚 Documentation
+
+- Added comprehensive technical documentation (`docs/LIVE_RECORDER_IMPLEMENTATION.md`)
+- Moved F1 DASH specification to `docs/` directory
+- Validation report moved to `docs/` directory
+
+### Usage
+
+Start f1-dash locally, then run:
+```bash
+python main.py --backend f1dash_live --mode record --f1dash-url http://localhost:4000 --output-dir ./output/live
+```
+
+After the session finishes, a ready-to-import RLT JSON export is written to the output directory.
+
+---
+
 ## [1.7.2_beta] - 2025-11-06
 
 ### ✨ New Features
