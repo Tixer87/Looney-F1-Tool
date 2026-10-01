@@ -1,0 +1,8 @@
+{
+  "year": 2026,
+  "round": 1,
+  "api_base_url": "https://api.jolpi.ca/ergast/f1",
+  "default_year": 2026,
+  "default_export_dir": "rlt-ready",
+  "live_data_provider": "openf1"
+}

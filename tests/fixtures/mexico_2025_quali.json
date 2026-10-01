@@ -1,0 +1,75 @@
+{
+  "SessionType": "Qualification",
+  "RaceType": "Regular",
+  "SessionStatus": "FullPoints",
+  "SessionPosition": 1,
+  "Date": "2025-11-01T22:00:00Z",
+  "FastestLapDriver": {
+    "Name": "Lando Norris",
+    "Nationality": "United Kingdom"
+  },
+  "FastestLapTimeInt": 76899,
+  "FastestLapNumLap": 5,
+  "DriverDayDriver": null,
+  "TrackName": "Mexico",
+  "TrackUniqueName": "mexico.2015",
+  "IsLiveData": false,
+  "LiveRecordPercent": 0,
+  "IsLiveFullRecord": false,
+  "IsSingleplayerMode": false,
+  "LiveStartDate": null,
+  "LiveEndDate": null,
+  "WeatherType": "Clear",
+  "AirTemperature": 0,
+  "TrackTemperature": 0,
+  "TotalLaps": 0,
+  "SessionDuration": "00:00:00",
+  "SessionDetailsRaw": null,
+  "Drivers": [
+    {
+      "Driver": {
+        "Name": "Lando Norris",
+        "Nationality": "United Kingdom"
+      },
+      "RaceNumber": 4,
+      "Position": 1,
+      "Team": {
+        "Name": "McLaren",
+        "UniqueName": "mclaren.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 76899,
+      "GapInt": 0,
+      "FastestLapTimeInt": 76899,
+      "FastestLapNumLap": 5,
+      "LapsCount": 10,
+      "GridPosition": 1,
+      "PitsCount": 0,
+      "Q1": "1:16.899"
+    },
+    {
+      "Driver": {
+        "Name": "Charles Leclerc",
+        "Nationality": "Monaco"
+      },
+      "RaceNumber": 16,
+      "Position": 2,
+      "Team": {
+        "Name": "Ferrari",
+        "UniqueName": "ferrari.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 77125,
+      "GapInt": 226,
+      "FastestLapTimeInt": 77125,
+      "FastestLapNumLap": 7,
+      "LapsCount": 10,
+      "GridPosition": 2,
+      "PitsCount": 0,
+      "Q1": "1:17.125"
+    }
+  ],
+  "QualType": "Regular"
+}

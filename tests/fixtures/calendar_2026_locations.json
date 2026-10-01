@@ -1,0 +1,117 @@
+[
+  {
+    "round": 1,
+    "location": "Melbourne",
+    "track": "albert.park.2021"
+  },
+  {
+    "round": 2,
+    "location": "Shanghai",
+    "track": "shanghai.2004"
+  },
+  {
+    "round": 3,
+    "location": "Suzuka",
+    "track": "suzuka.2003"
+  },
+  {
+    "round": 4,
+    "location": "Miami Gardens",
+    "track": "miami.2022"
+  },
+  {
+    "round": 5,
+    "location": "Montr\u00e9al",
+    "track": "montreal.2002"
+  },
+  {
+    "round": 6,
+    "location": "Monte Carlo",
+    "track": "monaco.2015"
+  },
+  {
+    "round": 7,
+    "location": "Barcelona",
+    "track": "barcelona.2021"
+  },
+  {
+    "round": 8,
+    "location": "Spielberg",
+    "track": "spielberg.2016"
+  },
+  {
+    "round": 9,
+    "location": "Silverstone",
+    "track": "silverstone.2011"
+  },
+  {
+    "round": 10,
+    "location": "Spa-Francorchamps",
+    "track": "spa.2007"
+  },
+  {
+    "round": 11,
+    "location": "Budapest",
+    "track": "hungaroring.2003"
+  },
+  {
+    "round": 12,
+    "location": "Zandvoort",
+    "track": "zandvoort.2020"
+  },
+  {
+    "round": 13,
+    "location": "Monza",
+    "track": "monza.2000"
+  },
+  {
+    "round": 14,
+    "location": "Madrid",
+    "track": "madrid.2026"
+  },
+  {
+    "round": 15,
+    "location": "Baku",
+    "track": "baku.2016"
+  },
+  {
+    "round": 16,
+    "location": "Kuala Lumpur",
+    "track": "sepang.1999"
+  },
+  {
+    "round": 17,
+    "location": "Marina Bay",
+    "track": "singapore.2023"
+  },
+  {
+    "round": 18,
+    "location": "Austin",
+    "track": "austin.2012"
+  },
+  {
+    "round": 19,
+    "location": "Mexico City",
+    "track": "mexico.2015"
+  },
+  {
+    "round": 20,
+    "location": "S\u00e3o Paulo",
+    "track": "interlagos.2000"
+  },
+  {
+    "round": 21,
+    "location": "Las Vegas",
+    "track": "las.vegas.2023"
+  },
+  {
+    "round": 22,
+    "location": "Lusail",
+    "track": "losail.2023"
+  },
+  {
+    "round": 23,
+    "location": "Yas Marina",
+    "track": "yasmarina.2021"
+  }
+]

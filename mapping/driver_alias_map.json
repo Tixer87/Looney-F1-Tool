@@ -1,0 +1,12 @@
+{
+  "ver": ["max verstappen", "verstappen", "max", "mverstappen"],
+  "ham": ["lewis hamilton", "hamilton", "lewis", "lhamilton"],
+  "nor": ["lando norris", "norris", "lando", "lnorris"],
+  "pia": ["oscar piastri", "piastri", "oscar", "opiastri"],
+  "lec": ["charles leclerc", "leclerc", "charles", "cleclerc"],
+  "sai": ["carlos sainz", "sainz jr", "sainz", "carlos"],
+  "rus": ["george russell", "russell", "george", "grussell"],
+  "alo": ["fernando alonso", "alonso", "fernando", "falonso"],
+  "per": ["sergio perez", "perez", "sergio", "checo", "sperez"],
+  "bea": ["oliver bearman", "bearman", "oliver", "obearman"]
+}

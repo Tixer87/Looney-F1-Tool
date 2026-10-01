@@ -1,0 +1,431 @@
+{
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "formatVersion": {
+          "const": 1
+        },
+        "exportType": {
+          "const": "Session"
+        },
+        "exportedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "sourceApplication": {
+          "type": "string"
+        },
+        "leagueName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "formatVersion",
+        "exportType",
+        "exportedAt",
+        "sourceApplication"
+      ],
+      "additionalProperties": false
+    },
+    "season": {
+      "type": "object",
+      "properties": {
+        "seasonName": {
+          "type": "string"
+        },
+        "championshipName": {
+          "type": "string"
+        },
+        "totalRounds": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "completedRounds": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "isMulticlass": {
+          "const": false
+        }
+      },
+      "required": [
+        "seasonName",
+        "championshipName",
+        "isMulticlass"
+      ],
+      "additionalProperties": false
+    },
+    "event": {
+      "type": "object",
+      "properties": {
+        "round": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "championshipPosition": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "eventDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "eventDateTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "racesCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "qualificationsCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "track": {
+          "type": "object",
+          "properties": {
+            "trackName": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "turnsCount": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "trackName"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "round",
+        "eventDate",
+        "track"
+      ],
+      "additionalProperties": false
+    },
+    "session": {
+      "type": "object",
+      "properties": {
+        "sessionInfo": {
+          "type": "object",
+          "properties": {
+            "sessionId": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "sessionType": {
+              "enum": [
+                "Race",
+                "Qualification",
+                "Practice"
+              ]
+            },
+            "raceType": {
+              "enum": [
+                "Main",
+                "Sprint"
+              ]
+            },
+            "sessionPosition": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "sessionCaption": {
+              "type": "string"
+            },
+            "completedStatus": {
+              "enum": [
+                "Completed",
+                "InProgress"
+              ]
+            },
+            "sessionDate": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "totalLaps": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "driversCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "weatherType": {
+              "type": "string"
+            },
+            "airTemperature": {
+              "type": "number"
+            },
+            "trackTemperature": {
+              "type": "number"
+            },
+            "safetyCarCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "virtualSafetyCarCount": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "sessionId",
+            "sessionType",
+            "sessionPosition",
+            "completedStatus",
+            "sessionDate",
+            "totalLaps",
+            "driversCount"
+          ],
+          "additionalProperties": false
+        },
+        "fastestLap": {
+          "type": "object",
+          "properties": {
+            "lapTime": {
+              "type": "string"
+            },
+            "lapTimeMs": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "driverName": {
+              "type": "string"
+            },
+            "lapNumber": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "lapTime",
+            "lapTimeMs",
+            "driverName"
+          ],
+          "additionalProperties": false
+        },
+        "raceDetails": {
+          "type": "object",
+          "properties": {
+            "raceType": {
+              "enum": [
+                "Main",
+                "Sprint"
+              ]
+            },
+            "isMajorRace": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "raceType",
+            "isMajorRace"
+          ],
+          "additionalProperties": false
+        },
+        "qualificationDetails": {
+          "type": "object",
+          "properties": {
+            "qualificationType": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "qualificationType"
+          ],
+          "additionalProperties": false
+        },
+        "drivers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "driverName": {
+                "type": "string"
+              },
+              "driverInfo": {
+                "type": "object",
+                "properties": {
+                  "raceNumber": {
+                    "type": "string"
+                  },
+                  "displayName": {
+                    "type": "string"
+                  },
+                  "nationality": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "raceNumber",
+                  "displayName"
+                ],
+                "additionalProperties": false
+              },
+              "position": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "classificationPosition": {
+                "type": "integer",
+                "minimum": -1
+              },
+              "gridPosition": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "positionChange": {
+                "type": "integer"
+              },
+              "status": {
+                "enum": [
+                  "Finished",
+                  "DNF",
+                  "DNS",
+                  "DSQ"
+                ]
+              },
+              "lapsCompleted": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "driverPoints": {
+                "type": "string",
+                "pattern": "^\\d+(\\.\\d+)?$"
+              },
+              "teamPoints": {
+                "type": "string",
+                "pattern": "^\\d+(\\.\\d+)?$"
+              },
+              "team": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "uniqueId": {
+                    "type": "string"
+                  },
+                  "fullName": {
+                    "type": "string"
+                  },
+                  "abbreviation": {
+                    "type": "string"
+                  },
+                  "country": {
+                    "type": "string"
+                  },
+                  "primaryColor": {
+                    "type": "string"
+                  },
+                  "secondaryColor": {
+                    "type": "string"
+                  },
+                  "tertiaryColor": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "uniqueId"
+                ],
+                "additionalProperties": false
+              },
+              "fastestLapNumber": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "totalTime": {
+                "type": "string"
+              },
+              "totalTimeMs": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "fastestLapTime": {
+                "type": "string"
+              },
+              "fastestLapTimeMs": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "gap": {
+                "type": "string"
+              },
+              "gapMs": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "interval": {
+                "type": "string"
+              },
+              "intervalMs": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "driverName",
+              "driverInfo",
+              "position",
+              "classificationPosition",
+              "status",
+              "lapsCompleted",
+              "team"
+            ],
+            "additionalProperties": false,
+            "dependentRequired": {
+              "totalTime": [
+                "totalTimeMs"
+              ],
+              "totalTimeMs": [
+                "totalTime"
+              ],
+              "fastestLapTime": [
+                "fastestLapTimeMs"
+              ],
+              "fastestLapTimeMs": [
+                "fastestLapTime"
+              ],
+              "gap": [
+                "gapMs"
+              ],
+              "gapMs": [
+                "gap"
+              ],
+              "interval": [
+                "intervalMs"
+              ],
+              "intervalMs": [
+                "interval"
+              ]
+            }
+          }
+        }
+      },
+      "required": [
+        "sessionInfo",
+        "drivers"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "metadata",
+    "season",
+    "event",
+    "session"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Looney native RLT output contract, based on supplied RLT reference (not an official schema)"
+}
