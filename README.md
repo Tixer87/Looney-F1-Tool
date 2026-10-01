@@ -114,4 +114,4 @@ MIT License. See `LICENSE`.
 
 ---
 
-GridSync / Tixer87
+www.gridSync.ch / Tixer87
