@@ -4,6 +4,18 @@ All notable changes to the Looney F1 Tool will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9.2] - 2026-10-16
+
+### Fixed
+
+- Fixed 2023 Dutch GP exports failing because `Circuit Park Zandvoort` was not recognized by the strict circuit mapping
+
+### Testing
+
+- Added regression coverage for the affected circuit name
+- Strict mapping behavior is unchanged
+- No unrelated feature changes
+
 ## [1.9.1] - 2026-10-01
 
 ### Changed

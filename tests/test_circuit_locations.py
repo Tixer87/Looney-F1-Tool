@@ -17,6 +17,7 @@ def test_2026_calendar_locations():
 @pytest.mark.parametrize('name,expected', [
     ('Monte Carlo', 'monaco.2015'),
     ('Miami Gardens', 'miami.2022'),
+    ('Circuit Park Zandvoort', 'zandvoort.2020'),
     ('Madrid', 'madrid.2026'),
     ('Kuala Lumpur', 'sepang.1999'),
     ('Sepang International Circuit', 'sepang.1999'),

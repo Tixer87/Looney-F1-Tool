@@ -25,7 +25,7 @@ CIRCUITS=[
 {"UniqueName":"spielberg.2016","CircuitName":"Spielberg","LocationName":"Spielberg","Nation":"Austria","NumberTurns":10,"Aliases":["Red Bull Ring","Spielberg","Austrian Grand Prix"]},
 {"UniqueName":"suzuka.2003","CircuitName":"Suzuka","LocationName":"Suzuka","Nation":"Japan","NumberTurns":18,"Aliases":["Suzuka Circuit","Suzuka International Circuit","Suzuka International Racing Course","Suzuka","Japanese Grand Prix"]},
 {"UniqueName":"yasmarina.2021","CircuitName":"Yas Marina","LocationName":"Yas Island","Nation":"United Arab Emirates","NumberTurns":16,"Aliases":["Yas Marina Circuit","Yas Marina","Yas Island","Abu Dhabi Grand Prix"]},
-{"UniqueName":"zandvoort.2020","CircuitName":"Zandvoort","LocationName":"Zandvoort","Nation":"Netherlands","NumberTurns":14,"Aliases":["Circuit Zandvoort","Zandvoort","Dutch Grand Prix"]},
+{"UniqueName":"zandvoort.2020","CircuitName":"Zandvoort","LocationName":"Zandvoort","Nation":"Netherlands","NumberTurns":14,"Aliases":["Circuit Zandvoort","Circuit Park Zandvoort","Zandvoort","Dutch Grand Prix"]},
 {"UniqueName":"miami.2022","CircuitName":"Miami","LocationName":"Miami Gardens","Nation":"United States Of America","NumberTurns":19,"Aliases":["Miami International Autodrome","Miami","Miami Gardens","Miami Grand Prix"]},
 {"UniqueName":"losail.2023","CircuitName":"Losail","LocationName":"Lusail","Nation":"Qatar","NumberTurns":16,"Aliases":["Losail International Circuit","Losail","Lusail","Qatar Grand Prix"]},
 {"UniqueName":"las.vegas.2023","CircuitName":"Las Vegas","LocationName":"Las Vegas","Nation":"United States Of America","NumberTurns":17,"Aliases":["Las Vegas Strip Circuit","Las Vegas","Las Vegas Grand Prix"]},
