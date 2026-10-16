@@ -2,7 +2,7 @@
 
 Looney F1 Tool is an open source Windows tool for retrieving real Formula racing results and exporting them into the native Racing League Tools format.
 
-Current version: **1.9.1**
+Current version: **1.9.2**
 
 ## Features
 
