@@ -1,7 +1,7 @@
 from core.version import __version__,FILE_VERSION,PRODUCT_NAME,COMPANY_NAME
 def test_version_values():
-    assert __version__=="1.9.2"
-    assert FILE_VERSION==(1,9,2,0)
+    assert __version__=="1.9.3"
+    assert FILE_VERSION==(1,9,3,0)
     assert PRODUCT_NAME=="Looney F1 Tool"
     assert COMPANY_NAME=="GridSync"
 def test_file_version_format():

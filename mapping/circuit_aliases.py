@@ -7,7 +7,7 @@ CIRCUITS=[
 {"UniqueName":"austin.2012","CircuitName":"Austin","LocationName":"Austin","Nation":"United States Of America","NumberTurns":20,"Aliases":["Circuit of the Americas","COTA","Austin","United States Grand Prix"]},
 {"UniqueName":"sakhir.2005","CircuitName":"Bahrain","LocationName":"Sakhir","Nation":"Bahrain","NumberTurns":15,"Aliases":["Bahrain International Circuit","Sakhir","Bahrain","Bahrain Grand Prix"]},
 {"UniqueName":"baku.2016","CircuitName":"Baku","LocationName":"Baku","Nation":"Azerbaijan","NumberTurns":20,"Aliases":["Baku City Circuit","Baku","Azerbaijan Grand Prix"]},
-{"UniqueName":"barcelona.2021","CircuitName":"Barcelona","LocationName":"Montmeló","Nation":"Spain","NumberTurns":14,"Aliases":["Circuit de Barcelona-Catalunya","Barcelona","Spanish Grand Prix"]},
+{"UniqueName":"barcelona.2021","CircuitName":"Barcelona","LocationName":"Montmeló","Nation":"Spain","NumberTurns":14,"Aliases":["Circuit de Barcelona-Catalunya","Barcelona","Catalunya","Spanish Grand Prix"]},
 {"UniqueName":"hungaroring.2003","CircuitName":"Hungaroring","LocationName":"Mogyoród","Nation":"Hungary","NumberTurns":14,"Aliases":["Hungaroring","Budapest","Hungarian Grand Prix"]},
 {"UniqueName":"imola.2008","CircuitName":"Imola","LocationName":"Imola","Nation":"Italy","NumberTurns":19,"Aliases":["Imola","Autodromo Enzo e Dino Ferrari","Autodromo Internazionale Enzo e Dino Ferrari","Emilia Romagna Grand Prix"]},
 {"UniqueName":"interlagos.2000","CircuitName":"Interlagos","LocationName":"São Paulo","Nation":"Brazil","NumberTurns":15,"Aliases":["Interlagos","Autódromo José Carlos Pace","Sao Paulo","São Paulo","São Paulo Grand Prix","Brazilian Grand Prix"]},
@@ -27,8 +27,8 @@ CIRCUITS=[
 {"UniqueName":"yasmarina.2021","CircuitName":"Yas Marina","LocationName":"Yas Island","Nation":"United Arab Emirates","NumberTurns":16,"Aliases":["Yas Marina Circuit","Yas Marina","Yas Island","Abu Dhabi Grand Prix"]},
 {"UniqueName":"zandvoort.2020","CircuitName":"Zandvoort","LocationName":"Zandvoort","Nation":"Netherlands","NumberTurns":14,"Aliases":["Circuit Zandvoort","Circuit Park Zandvoort","Zandvoort","Dutch Grand Prix"]},
 {"UniqueName":"miami.2022","CircuitName":"Miami","LocationName":"Miami Gardens","Nation":"United States Of America","NumberTurns":19,"Aliases":["Miami International Autodrome","Miami","Miami Gardens","Miami Grand Prix"]},
-{"UniqueName":"losail.2023","CircuitName":"Losail","LocationName":"Lusail","Nation":"Qatar","NumberTurns":16,"Aliases":["Losail International Circuit","Losail","Lusail","Qatar Grand Prix"]},
-{"UniqueName":"las.vegas.2023","CircuitName":"Las Vegas","LocationName":"Las Vegas","Nation":"United States Of America","NumberTurns":17,"Aliases":["Las Vegas Strip Circuit","Las Vegas","Las Vegas Grand Prix"]},
+{"UniqueName":"losail.2023","CircuitName":"Losail","LocationName":"Lusail","Nation":"Qatar","NumberTurns":16,"Aliases":["Losail International Circuit","Lusail International Circuit","Losail","Lusail","Qatar Grand Prix"]},
+{"UniqueName":"las.vegas.2023","CircuitName":"Las Vegas","LocationName":"Las Vegas","Nation":"United States Of America","NumberTurns":17,"Aliases":["Las Vegas Strip Circuit","Las Vegas Strip Street Circuit","Las Vegas","Las Vegas Grand Prix"]},
 {"UniqueName":"sepang.1999","CircuitName":"Sepang","LocationName":"Sepang","Nation":"Malaysia","NumberTurns":15,"Aliases":["Kuala Lumpur","Sepang","Sepang International Circuit"]},
 {"UniqueName":"madrid.2026","CircuitName":"Madrid","LocationName":"Madrid","Nation":"Spain","NumberTurns":22,"Aliases":["Madrid","Madring","Madring Street Circuit"]}
 ]

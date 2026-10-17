@@ -4,6 +4,19 @@ All notable changes to the Looney F1 Tool will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9.3] - 2026-10-17
+
+### Fixed
+
+- Expanded circuit alias compatibility for historical and provider-specific F1 circuit names
+- Fixed exports affected by missing mappings for Lusail and Las Vegas
+- Confirmed the existing Zandvoort alias against the 2023 provider audit
+
+### Testing
+
+- Added regression coverage for the newly supported circuit aliases
+- Strict circuit validation remains unchanged
+
 ## [1.9.2] - 2026-10-16
 
 ### Fixed

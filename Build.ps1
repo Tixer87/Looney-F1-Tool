@@ -11,4 +11,4 @@ if($LASTEXITCODE-ne 0){throw 'Dependencies could not be installed.'}
 if($LASTEXITCODE-ne 0){throw 'Build failed.'}
 Write-Host ''
 Write-Host 'Build complete:'
-Write-Host 'dist\LooneyF1Tool_1.9.2.exe'
+Write-Host 'dist\LooneyF1Tool_1.9.3.exe'
